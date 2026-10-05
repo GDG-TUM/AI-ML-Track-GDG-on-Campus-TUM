@@ -1,0 +1,64 @@
+# Applies area labels to pull requests based on the files they change.
+# Used by .github/workflows/labeler.yml (actions/labeler v5 format).
+
+"area: curriculum":
+  - changed-files:
+      - any-glob-to-any-file: ["learning-path/**", "roadmap/**"]
+
+"area: sessions":
+  - changed-files:
+      - any-glob-to-any-file: ["weekly-sessions/**"]
+
+"area: notebooks":
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.ipynb"]
+
+"area: projects":
+  - changed-files:
+      - any-glob-to-any-file: ["projects/**"]
+
+"area: competitions":
+  - changed-files:
+      - any-glob-to-any-file: ["competitions/**"]
+
+"area: resources":
+  - changed-files:
+      - any-glob-to-any-file: ["resources/**"]
+
+"area: responsible-ai":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "docs/responsible-ai.md"
+          - "resources/responsible-ai-checklist.md"
+          - "learning-path/05-responsible-ai.md"
+          - "weekly-sessions/week-08-responsible-ai/**"
+
+"area: community":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "members/**"
+          - "CODE_OF_CONDUCT.md"
+          - "CONTRIBUTING.md"
+          - "GOVERNANCE.md"
+          - "SECURITY.md"
+          - "SUPPORT.md"
+
+"area: infra":
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**"
+          - "scripts/**"
+          - "Makefile"
+          - "pyproject.toml"
+          - "requirements*.txt"
+          - ".pre-commit-config.yaml"
+          - ".markdownlint-cli2.jsonc"
+          - ".lychee.toml"
+          - ".editorconfig"
+          - ".gitattributes"
+          - ".gitignore"
+
+"documentation":
+  - changed-files:
+      - any-glob-to-any-file:
+          ["docs/**", "README.md", "FAQ.md", "GETTING-STARTED.md", "CHANGELOG.md"]

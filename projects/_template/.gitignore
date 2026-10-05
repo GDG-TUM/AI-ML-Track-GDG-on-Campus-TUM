@@ -1,0 +1,34 @@
+# Secrets. Never commit these.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and models: link to them, do not commit them
+data/
+*.csv.gz
+*.parquet
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+*.pkl
+*.joblib
+
+# Output written by the training script
+reports/
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/

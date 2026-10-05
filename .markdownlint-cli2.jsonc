@@ -1,0 +1,18 @@
+{
+  // Markdown lint rules (https://github.com/DavidAnson/markdownlint)
+  // Relaxed on purpose: this repo uses emoji headings, HTML banners and
+  // "back to home" links at the top of pages.
+  "config": {
+    "default": true,
+    "MD013": false, // line length: prose should flow
+    "MD024": { "siblings_only": true }, // repeated headings are fine under different parents
+    "MD026": false, // trailing punctuation in headings (we use "?" and ":")
+    "MD033": false, // inline HTML (banners, details, tables)
+    "MD036": false, // bold text used as a label
+    "MD041": false, // first line need not be a heading (back links, banners)
+    "MD051": false, // link fragments: GitHub's emoji heading slugs confuse this rule; scripts/check_repo.py checks anchors
+    "MD060": false // table column style: GitHub renders any table style, and aligning pipes by hand is busywork
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", ".venv/**", "venv/**"]
+}

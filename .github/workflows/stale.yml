@@ -1,0 +1,35 @@
+name: Stale issues and PRs
+
+# Gently clears abandoned items. Deliberately patient: we are students with exams.
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 45
+          days-before-close: 14
+          stale-issue-label: stale
+          stale-pr-label: stale
+          exempt-issue-labels: "pinned,roadmap,good first issue,help wanted,status: in-progress,status: blocked"
+          exempt-pr-labels: "pinned,roadmap,status: blocked"
+          exempt-draft-pr: true
+          stale-issue-message: >
+            Hi 👋 There has been no activity here for a while, so we are marking this as stale.
+            Still interested? Leave a comment and we will keep it open. Otherwise it will be closed
+            in 14 days. No hard feelings either way, and you can always reopen it later.
+          stale-pr-message: >
+            Hi 👋 This pull request has been quiet for a while. Need help finishing it? Ask in the
+            track channel or here. Otherwise it will be closed in 14 days, and you can reopen it
+            whenever you are ready.
+          close-issue-message: Closing due to inactivity. Feel free to reopen if this is still relevant.
+          close-pr-message: Closing due to inactivity. Feel free to reopen when you are ready to continue.

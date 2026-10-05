@@ -1,0 +1,61 @@
+# Secrets and local config. Never commit these.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+service-account*.json
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data and models: link to them, do not commit them
+data/
+datasets/
+*.csv.gz
+*.parquet
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+# ...except tiny, deliberate sample files in a sample/ folder
+!sample/**
+
+# Experiment tracking output
+mlruns/
+wandb/
+lightning_logs/
+runs/
+outputs/
+
+# Node tooling (markdown lint)
+node_modules/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

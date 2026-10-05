@@ -1,0 +1,51 @@
+# Drafts release notes from merged pull requests (release-drafter v6).
+# Because PR titles follow Conventional Commits, the autolabeler below turns
+# "feat(...)" into the enhancement label, "fix(...)" into bug, and so on.
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+
+categories:
+  - title: "🚀 New content"
+    labels: [enhancement]
+  - title: "🐛 Fixes"
+    labels: [bug]
+  - title: "📝 Documentation"
+    labels: [documentation]
+  - title: "🛠️ Maintenance"
+    labels: [maintenance, dependencies]
+
+change-template: "- $TITLE (#$NUMBER) by @$AUTHOR"
+change-title-escapes: '\<*_&'
+exclude-labels: [skip-changelog]
+
+version-resolver:
+  major:
+    labels: [breaking-change]
+  minor:
+    labels: [enhancement]
+  patch:
+    labels: [bug, documentation, maintenance, dependencies]
+  default: patch
+
+autolabeler:
+  - label: breaking-change
+    title: ['/^\w+(\(.+\))?!:/']
+  - label: enhancement
+    title: ["/^feat/i"]
+  - label: bug
+    title: ["/^fix/i"]
+  - label: documentation
+    title: ["/^docs/i"]
+  - label: maintenance
+    title: ["/^(chore|ci|refactor|style|test)/i"]
+
+template: |
+  ## What's changed
+
+  $CHANGES
+
+  ## Contributors
+
+  Thank you to everyone who made this release happen: $CONTRIBUTORS
+
+  **Full changelog:** https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION

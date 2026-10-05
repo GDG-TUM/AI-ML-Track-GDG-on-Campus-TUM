@@ -1,0 +1,53 @@
+name: "🐛 Something is broken"
+description: A broken link, a notebook that fails, a wrong explanation or a typo
+title: "[Bug] "
+labels: ["bug", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us fix things! 💙 For security problems or leaked keys, please **do not** use this form. See [SECURITY.md](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/blob/main/SECURITY.md).
+  - type: input
+    id: where
+    attributes:
+      label: Where is the problem?
+      description: A file path or link, such as the week folder or notebook name.
+      placeholder: "weekly-sessions/week-03-evaluate-honestly/evaluate_honestly.ipynb"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: What did you expect, and what happened instead? Paste the full error message if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the notebook in Colab
+        2. Run all cells
+        3. Cell 7 fails with ...
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did you run it?
+      options:
+        - Google Colab
+        - Kaggle Notebooks
+        - Local Python
+        - Not applicable (docs problem)
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Python and library versions, screenshots, ideas for a fix. Want to fix it yourself? Say so, and we will assign you.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have removed passwords, API keys, tokens and personal information from this issue
+          required: true

@@ -1,0 +1,32 @@
+name: Link check
+
+# Internal links are checked on every PR by scripts/check_repo.py.
+# External links rot over time, so we check them weekly and open an issue
+# instead of blocking people's pull requests for a third-party outage.
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check external links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress "./**/*.md"
+          fail: false
+      - name: Open an issue when links are broken
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔗 Broken links report"
+          content-filepath: ./lychee/out.md
+          labels: maintenance, documentation

@@ -1,0 +1,91 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Least privilege: CI only needs to read the code.
+permissions:
+  contents: read
+
+# A new push to the same branch cancels the older, now pointless run.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  repo-checks:
+    name: Repo structure and links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check links, sessions, member profiles and clean notebooks
+        run: python scripts/check_repo.py
+
+  lint:
+    name: Lint and format (Ruff)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the pinned Ruff version
+        # One source of truth: the pin in requirements-dev.txt
+        run: pip install "$(grep -E '^ruff==' requirements-dev.txt)"
+      - run: ruff check .
+      - run: ruff format --check .
+
+  markdown:
+    name: Lint (Markdown)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v19
+
+  notebooks:
+    name: Notebooks run top to bottom
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements-dev.txt
+      - run: pytest --nbmake weekly-sessions
+
+  template:
+    name: Starter project template
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/_template
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: projects/_template/requirements.txt
+      - run: pip install -r requirements.txt
+      - run: pytest
+
+  # One stable check name to require in branch protection ("CI passed"),
+  # so adding or renaming jobs above never breaks the rules.
+  ci-passed:
+    name: CI passed
+    if: always()
+    needs: [repo-checks, lint, markdown, notebooks, template]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail if any job failed or was cancelled
+        if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
+        run: exit 1
+      - run: echo "All checks passed"

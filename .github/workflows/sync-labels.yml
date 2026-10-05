@@ -1,0 +1,24 @@
+name: Sync labels
+
+# Makes the repository's labels match .github/labels.yml.
+# Edit that file in a pull request instead of clicking around in the UI.
+on:
+  push:
+    branches: [main]
+    paths: [.github/labels.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: EndBug/label-sync@v2
+        with:
+          config-file: .github/labels.yml
+          # Remove labels that are not in the file so the set stays tidy
+          delete-other-labels: true

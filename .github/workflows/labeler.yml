@@ -1,0 +1,19 @@
+name: Label pull requests
+
+# Adds area labels from the files a PR changes (see .github/labeler.yml).
+# pull_request_target lets this work on PRs from forks. It is safe because the
+# workflow never checks out or executes code from the pull request.
+on:
+  pull_request_target:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v5
+        with:
+          sync-labels: true

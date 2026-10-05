@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discuss an idea or share your work
+    url: https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/discussions
+    about: Open-ended chat, ideas and show-and-tell belong in Discussions
+  - name: 🧭 Share your yearly plan
+    url: https://github.com/GDG-TUM/member-roadmaps/issues/new/choose
+    about: Member Roadmap issues live in the chapter's member-roadmaps repo
+  - name: 📋 Chapter project board
+    url: https://github.com/orgs/GDG-TUM/projects/1
+    about: See what the whole chapter is working on
+  - name: 🔐 Report a security problem or leaked key (private)
+    url: https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/security/advisories/new
+    about: Please do not open a public issue for secrets, personal data or vulnerabilities

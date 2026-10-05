@@ -1,0 +1,20 @@
+# CODEOWNERS: who GitHub asks to review a change.
+# https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# The LAST matching pattern wins. Replace individual handles with a team
+# (for example @GDG-TUM/ai-ml-track-leads) once the org has created one,
+# so the file survives the next handover. See docs/maintainers-guide.md.
+
+# Default: the track lead reviews everything
+*                       @10kwise
+
+# Governance, security and automation always need a lead
+/GOVERNANCE.md          @10kwise
+/CODE_OF_CONDUCT.md     @10kwise
+/SECURITY.md            @10kwise
+/.github/               @10kwise
+/scripts/               @10kwise
+
+# Content areas: add maintainers here as they join, for example:
+# /weekly-sessions/     @10kwise @maintainer-handle
+# /projects/            @10kwise @maintainer-handle

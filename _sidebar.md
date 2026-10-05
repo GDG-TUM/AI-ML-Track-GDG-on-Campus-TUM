@@ -1,0 +1,64 @@
+- [🏠 Home](/README.md)
+- [🚀 Getting Started](/GETTING-STARTED.md)
+- [❓ FAQ](/FAQ.md)
+
+- **🗓️ Plan**
+  - [Semester Roadmap](/roadmap/semester-roadmap.md)
+  - [Weekly Sessions](/weekly-sessions/README.md)
+    - [Week 1: Welcome and Python for data](/weekly-sessions/week-01-welcome-and-python-for-data/README.md)
+    - [Week 2: Your first model](/weekly-sessions/week-02-your-first-model/README.md)
+    - [Week 3: Evaluate honestly](/weekly-sessions/week-03-evaluate-honestly/README.md)
+    - [Week 4: Neural networks from scratch](/weekly-sessions/week-04-neural-networks-from-scratch/README.md)
+    - [Week 5: Deep learning in practice](/weekly-sessions/week-05-deep-learning-in-practice/README.md)
+    - [Week 6: Language models and Gemini](/weekly-sessions/week-06-language-models-and-gemini/README.md)
+    - [Week 7: RAG and agents study jam](/weekly-sessions/week-07-rag-and-agents-study-jam/README.md)
+    - [Week 8: Responsible AI](/weekly-sessions/week-08-responsible-ai/README.md)
+    - [Week 9: From notebook to app](/weekly-sessions/week-09-from-notebook-to-app/README.md)
+    - [Week 10: Demo day](/weekly-sessions/week-10-demo-day/README.md)
+
+- **🧭 Learn**
+  - [Learning Path](/learning-path/README.md)
+    - [1. Foundations](/learning-path/01-foundations.md)
+    - [2. Core machine learning](/learning-path/02-core-ml.md)
+    - [3. Deep learning](/learning-path/03-deep-learning.md)
+    - [4. Generative AI](/learning-path/04-generative-ai.md)
+    - [5. Responsible AI](/learning-path/05-responsible-ai.md)
+    - [6. Ship it](/learning-path/06-ship-it.md)
+  - [🏆 Competitions](/competitions/README.md)
+
+- **🚀 Build**
+  - [Project Guide](/projects/README.md)
+  - [Project Ideas](/projects/ideas.md)
+  - [Project README Template](/projects/project-template.md)
+  - [Starter Template](/projects/_template/README.md)
+  - [Showcase](/projects/showcase.md)
+  - [Members](/members/README.md)
+
+- **🛡️ Responsible AI**
+  - [Responsible AI Guide](/docs/responsible-ai.md)
+  - [Responsible AI Checklist](/resources/responsible-ai-checklist.md)
+
+- **📚 Resources**
+  - [All Resources](/resources/README.md)
+  - [Free Resources](/resources/free-resources.md)
+  - [Compute Guide](/resources/compute-guide.md)
+  - [Glossary](/resources/glossary.md)
+  - [ML Project Checklist](/resources/ml-project-checklist.md)
+  - Cheat sheets
+    - [Python for data](/resources/cheatsheets/python-data.md)
+    - [scikit-learn](/resources/cheatsheets/scikit-learn.md)
+    - [Git for ML](/resources/cheatsheets/git-for-ml.md)
+    - [Prompting](/resources/cheatsheets/prompting.md)
+
+- **⚙️ How we work**
+  - [Workflow](/docs/workflow.md)
+  - [Session Playbook](/docs/session-playbook.md)
+  - [Project Lifecycle](/docs/project-lifecycle.md)
+  - [Mentorship](/docs/mentorship.md)
+  - [Maintainers Guide](/docs/maintainers-guide.md)
+  - [Decision Records](/docs/decisions/README.md)
+  - [Contributing](/CONTRIBUTING.md)
+  - [Governance](/GOVERNANCE.md)
+  - [Code of Conduct](/CODE_OF_CONDUCT.md)
+  - [Security](/SECURITY.md)
+  - [Support](/SUPPORT.md)

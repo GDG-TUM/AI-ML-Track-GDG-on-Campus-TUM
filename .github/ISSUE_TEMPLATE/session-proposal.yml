@@ -1,0 +1,70 @@
+name: "🎤 Propose a session or talk"
+description: Suggest a weekly session, study jam, paper club talk, hack night or workshop
+title: "[Session] "
+labels: ["session", "status: proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do **not** need to be an expert to run a session. Teaching something you just learned is one of the best ways to learn it. We will help you plan. See the [session playbook](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/blob/main/docs/session-playbook.md).
+  - type: input
+    id: title
+    attributes:
+      label: Session title
+      placeholder: "Computer vision with a phone camera"
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - Weekly session (about 90 minutes)
+        - Study jam (guided labs)
+        - Paper club talk
+        - Hack night
+        - Workshop
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Audience level
+      options:
+        - Beginner (no ML experience)
+        - Intermediate (has trained a model)
+        - Advanced
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What will people be able to do afterwards?
+      description: Aim for two or three concrete outcomes, not topics.
+      placeholder: "- Explain what a convolution does\n- Fine-tune a small image model in Colab"
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Rough outline and timings
+      value: |
+        - Concept (20 min):
+        - Hands-on in pairs (50 min):
+        - Share-out (10 min):
+        - Responsible AI moment (5 min):
+  - type: textarea
+    id: prereqs
+    attributes:
+      label: Prerequisites and resources needed
+      description: Prior weeks, datasets, accounts, a free GPU, and so on.
+  - type: textarea
+    id: rai
+    attributes:
+      label: Responsible AI angle
+      description: Who could be affected by what we teach? What should learners watch out for?
+  - type: textarea
+    id: speakers
+    attributes:
+      label: Who will lead it?
+      description: GitHub usernames, and whether you would like a co-presenter or mentor.

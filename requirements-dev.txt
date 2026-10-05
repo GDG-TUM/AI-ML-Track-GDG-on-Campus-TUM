@@ -1,0 +1,12 @@
+# Tools for working on this repository (linting, tests, hooks).
+# Install with: make setup   (or: pip install -r requirements-dev.txt)
+-r requirements.txt
+
+# Keep this pin in sync with the `rev:` of ruff-pre-commit in .pre-commit-config.yaml.
+# CI reads the version from this line, so there is one source of truth.
+ruff==0.16.10
+
+pre-commit>=3.7
+pytest>=8.0
+nbmake>=1.5
+nbstripout>=0.8

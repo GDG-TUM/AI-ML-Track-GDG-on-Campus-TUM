@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI/ML Track | GDG on Campus TUM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI and ML Track of GDG on Campus, Technical University of Mombasa. Learn it. Build it. Ship it. Responsibly.">
+  <meta name="theme-color" content="#4285F4">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root { --theme-color: #4285F4; }
+    .sidebar { border-right: 1px solid #e8eaed; }
+    .app-name-link { font-weight: 700; }
+    .markdown-section { max-width: 920px; }
+    .markdown-section table { display: table; width: 100%; }
+    .markdown-section img { vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <div id="app">Loading the AI/ML Track...</div>
+
+  <script>
+    window.$docsify = {
+      name: '🤖 AI/ML Track',
+      repo: 'GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM',
+      homepage: 'README.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      relativePath: true,
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+      search: {
+        placeholder: 'Search the AI/ML Track',
+        noData: 'No results found.',
+        depth: 3
+      }
+    };
+  </script>
+
+  <!-- Docsify core and plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <!-- Renders GitHub-style > [!NOTE], > [!TIP], > [!WARNING] boxes -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts"></script>
+  <!-- Renders mermaid diagrams (timeline and flowcharts).
+       By default Mermaid 10 names each diagram "mermaid-<milliseconds>", so two diagrams on
+       one page that render in the same millisecond get the SAME id and draw on top of each
+       other. deterministicIds makes it count 0, 1, 2... instead. A small hook replaces the
+       docsify-mermaid plugin so we control this. -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: false, deterministicIds: true });
+    window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook) {
+      hook.doneEach(function () {
+        var nodes = [];
+        document.querySelectorAll('pre[data-lang="mermaid"]').forEach(function (pre) {
+          var div = document.createElement('div');
+          div.className = 'mermaid';
+          div.textContent = pre.textContent;
+          pre.replaceWith(div);
+          nodes.push(div);
+        });
+        if (nodes.length) { mermaid.run({ nodes: nodes }); }
+      });
+    });
+  </script>
+</body>
+</html>

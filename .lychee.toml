@@ -1,0 +1,24 @@
+# External link checker configuration (https://lychee.cli.rs)
+# Runs weekly in .github/workflows/links.yml and opens an issue if links break.
+
+accept = ["200..=299", "429"] # 429 means "slow down", not "broken"
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 8
+user_agent = "Mozilla/5.0 (compatible; gdg-tum-link-check)"
+
+exclude = [
+  # Opens only once the repository is public
+  '^https://colab\.research\.google\.com/github/',
+  # Pages that need the repository to exist or a login
+  '^https://github\.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/(issues|actions|security|discussions)',
+  '^https://github\.com/GDG-TUM/member-roadmaps/issues',
+  '^https://github\.com/orgs/GDG-TUM/projects',
+  # Sites that block automated requests
+  '^https://www\.linkedin\.com/',
+  '^mailto:',
+  # Placeholders in templates
+  'example\.com',
+  'your-username',
+]

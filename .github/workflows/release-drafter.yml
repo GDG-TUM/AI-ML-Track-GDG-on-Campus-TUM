@@ -1,0 +1,24 @@
+name: Release drafter
+
+# Keeps a draft GitHub Release up to date from merged pull requests.
+# To publish: open Releases, review the draft, click "Publish release".
+# See docs/maintainers-guide.md#releases
+on:
+  push:
+    branches: [main]
+  pull_request_target:
+    types: [opened, reopened, synchronize, edited]
+
+permissions:
+  contents: read
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # create and update the draft release
+      pull-requests: write # apply labels from the PR title (autolabeler)
+    steps:
+      - uses: release-drafter/release-drafter@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

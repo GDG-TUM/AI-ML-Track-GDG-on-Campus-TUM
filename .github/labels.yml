@@ -1,0 +1,127 @@
+# The single source of truth for this repo's labels.
+# Edit this file in a pull request; .github/workflows/sync-labels.yml applies it.
+# Colours are hex without the leading #.
+
+# --- Type -------------------------------------------------------------------
+- name: bug
+  color: "d73a4a"
+  description: Something is broken (link, notebook, explanation)
+- name: enhancement
+  color: "1d76db"
+  description: New content or an improvement to existing content
+- name: documentation
+  color: "0075ca"
+  description: Improvements or additions to documentation
+- name: question
+  color: "d876e3"
+  description: A question from a member
+- name: feedback
+  color: "c5def5"
+  description: Session feedback from a member
+- name: session
+  color: "4285f4"
+  description: A session, study jam or talk
+- name: project
+  color: "34a853"
+  description: A member or team project
+- name: resource
+  color: "fbbc04"
+  description: A suggested learning resource
+- name: maintenance
+  color: "ededed"
+  description: Chores, refactors and housekeeping
+- name: breaking-change
+  color: "b60205"
+  description: Breaks links or structure other people rely on
+
+# --- Area -------------------------------------------------------------------
+- name: "area: curriculum"
+  color: "5319e7"
+  description: Learning path and roadmap
+- name: "area: sessions"
+  color: "5319e7"
+  description: Weekly sessions
+- name: "area: notebooks"
+  color: "5319e7"
+  description: Jupyter notebooks
+- name: "area: projects"
+  color: "5319e7"
+  description: Project guide, ideas, template, showcase
+- name: "area: competitions"
+  color: "5319e7"
+  description: Hackathons and competitions
+- name: "area: resources"
+  color: "5319e7"
+  description: Resources, glossary, cheat sheets
+- name: "area: responsible-ai"
+  color: "5319e7"
+  description: Fairness, privacy, safety and model cards
+- name: "area: community"
+  color: "5319e7"
+  description: Members, governance, contributing
+- name: "area: infra"
+  color: "5319e7"
+  description: CI, tooling and repo configuration
+
+# --- Level ------------------------------------------------------------------
+- name: "level: beginner"
+  color: "34a853"
+  description: No prior ML experience needed
+- name: "level: intermediate"
+  color: "fbbc04"
+  description: Some Python and ML basics helpful
+- name: "level: advanced"
+  color: "ea4335"
+  description: For experienced members
+
+# --- Status -----------------------------------------------------------------
+- name: "status: needs-triage"
+  color: "ededed"
+  description: A maintainer has not looked at this yet
+- name: "status: needs-info"
+  color: "fef2c0"
+  description: Waiting for more information from the author
+- name: "status: proposal"
+  color: "c2e0c6"
+  description: A proposal waiting for a decision
+- name: "status: in-progress"
+  color: "0e8a16"
+  description: Someone is working on this
+- name: "status: blocked"
+  color: "b60205"
+  description: Waiting on something else
+
+# --- Community and housekeeping ---------------------------------------------
+- name: good first issue
+  color: "7057ff"
+  description: Good for newcomers
+- name: help wanted
+  color: "008672"
+  description: Extra hands welcome
+- name: roadmap
+  color: "0052cc"
+  description: Part of the semester plan
+- name: pinned
+  color: "fbca04"
+  description: Never mark as stale
+- name: skip-changelog
+  color: "ffffff"
+  description: Leave out of the release notes
+- name: dependencies
+  color: "0366d6"
+  description: Dependency updates
+- name: github_actions
+  color: "000000"
+  description: GitHub Actions updates
+- name: python
+  color: "2b67c6"
+  description: Python code or dependencies
+- name: duplicate
+  color: "cfd3d7"
+  description: This already exists
+- name: invalid
+  color: "e4e669"
+  description: This does not seem right
+- name: wontfix
+  color: "ffffff"
+  description: This will not be worked on

@@ -1,0 +1,35 @@
+# Tool configuration only. This is a content repo (curriculum, notebooks, docs),
+# not an installable package, so there is deliberately no [project] table.
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+# Ruff can also format Python snippets inside Markdown. We keep docs snippets hand-aligned
+# (cheat sheets use aligned comments on purpose) and don't want a README typo fix to fail CI.
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = [
+  "E",   # pycodestyle errors
+  "F",   # pyflakes
+  "I",   # isort (import order)
+  "B",   # bugbear (likely bugs)
+  "UP",  # pyupgrade (modern syntax)
+  "SIM", # simplifications
+  "NPY", # NumPy gotchas (e.g. legacy np.random.seed)
+]
+ignore = [
+  "E501", # line length is handled by the formatter
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Teaching notebooks often print or re-use names on purpose.
+"*.ipynb" = ["B007", "SIM108"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+# Run `pytest --nbmake weekly-sessions` to execute every teaching notebook.
+# Run `pytest` inside projects/_template to test the starter project.
+addopts = "-ra"

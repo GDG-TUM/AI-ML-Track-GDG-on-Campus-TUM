@@ -1,0 +1,48 @@
+name: PR title
+
+# We squash-merge, so the pull request title becomes the commit on main.
+# This check keeps that history readable and powers the release notes.
+#
+# pull_request_target is the documented setup for this action: it only reads
+# the PR title and never checks out or runs code from the pull request.
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  semantic-title:
+    name: Conventional Commit title
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            feat
+            fix
+            docs
+            style
+            refactor
+            test
+            chore
+            ci
+          scopes: |
+            curriculum
+            sessions
+            projects
+            competitions
+            members
+            resources
+            docs
+            repo
+            deps
+          requireScope: false
+          # Summary starts lower case: "add week 6 notebook", not "Add week 6 notebook"
+          subjectPattern: ^(?![A-Z]).+$
+          subjectPatternError: |
+            The summary "{subject}" should start with a lower-case letter.
+            Example: feat(sessions): add week 6 notebook

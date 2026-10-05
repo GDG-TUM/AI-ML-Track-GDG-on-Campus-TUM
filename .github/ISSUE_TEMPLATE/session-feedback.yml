@@ -1,0 +1,55 @@
+name: "💬 Session feedback"
+description: Tell us how a session went
+title: "[Feedback] Week "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: week
+    attributes:
+      label: Which session?
+      options:
+        - "Week 1: Welcome and Python for data"
+        - "Week 2: Your first model"
+        - "Week 3: Evaluate honestly"
+        - "Week 4: Neural networks from scratch"
+        - "Week 5: Deep learning in practice"
+        - "Week 6: Language models and Gemini"
+        - "Week 7: RAG and agents study jam"
+        - "Week 8: Responsible AI"
+        - "Week 9: From notebook to app"
+        - "Week 10: Demo day"
+    validations:
+      required: true
+  - type: dropdown
+    id: pace
+    attributes:
+      label: Pace
+      options:
+        - Too slow
+        - About right
+        - Too fast
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Too easy
+        - About right
+        - Too hard
+  - type: textarea
+    id: good
+    attributes:
+      label: What worked well?
+  - type: textarea
+    id: improve
+    attributes:
+      label: What could be better?
+  - type: textarea
+    id: rai
+    attributes:
+      label: Was the "Responsible AI moment" useful?
+      description: Optional. What would make it more useful?
+  - type: textarea
+    id: next
+    attributes:
+      label: What would you like to learn next?

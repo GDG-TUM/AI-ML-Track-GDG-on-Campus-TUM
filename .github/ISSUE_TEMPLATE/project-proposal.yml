@@ -1,0 +1,104 @@
+name: "🚀 Project proposal"
+description: Propose your team's AI/ML project
+title: "[Project] Project name"
+labels: ["project", "status: proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Smaller and finished beats bigger and abandoned. Read the [project guide](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/blob/main/projects/README.md) first. Two maintainers review proposals **within a week**.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: textarea
+    id: team
+    attributes:
+      label: Team members (GitHub usernames)
+      placeholder: "@user1, @user2, @user3"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and audience
+      description: Who has this problem, and why does it matter to them?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What will the model or app do, in plain words? Is machine learning really the right tool here?
+    validations:
+      required: true
+  - type: dropdown
+    id: task
+    attributes:
+      label: Type of task
+      options:
+        - Classification
+        - Regression or forecasting
+        - Computer vision
+        - Natural language processing
+        - Generative AI (LLM app, RAG, agent)
+        - Recommendation
+        - Audit or analysis of an existing model
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data
+      description: Where will the data come from? What is its licence? How big is it?
+    validations:
+      required: true
+  - type: dropdown
+    id: personal-data
+    attributes:
+      label: Does the data include personal information about real people?
+      description: Photos of people, names, messages, grades, health or financial records, locations. Kenya's Data Protection Act, 2019 applies.
+      options:
+        - No personal data
+        - Yes, with clear consent (needs a responsible AI review)
+        - Not sure (we will talk before you start)
+    validations:
+      required: true
+  - type: textarea
+    id: metric
+    attributes:
+      label: How will you know it works?
+      description: Your success metric and your baseline to beat.
+      placeholder: "Metric: macro F1. Baseline: predict the most common class (F1 about 0.2)."
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Who could be harmed if it is wrong?
+      description: A short, honest answer. This is a required part of every project, not a trap.
+    validations:
+      required: true
+  - type: textarea
+    id: compute
+    attributes:
+      label: Compute and tools
+      description: Colab, Kaggle, local? Which libraries, and which model or API?
+  - type: textarea
+    id: milestones
+    attributes:
+      label: Milestones
+      value: |
+        - [ ] Week 5: proposal approved and repo created from the template
+        - [ ] Week 7: baseline model and honest evaluation
+        - [ ] Week 8: responsible AI review and model card
+        - [ ] Week 9: working demo and tests
+        - [ ] Week 10: demo day
+  - type: textarea
+    id: help
+    attributes:
+      label: Risks or help needed
+      description: Would you like a mentor? Is anything blocking you?

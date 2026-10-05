@@ -1,0 +1,66 @@
+name: "📚 Suggest a resource"
+description: Found a great tutorial, course, dataset or tool? Share it.
+title: "[Resource] "
+labels: ["resource"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Course
+        - Video
+        - Book or article
+        - Tool or library
+        - Dataset
+        - Paper
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which learning path stage does it fit?
+      options:
+        - "1. Foundations"
+        - "2. Core machine learning"
+        - "3. Deep learning"
+        - "4. Generative AI"
+        - "5. Responsible AI"
+        - "6. Ship it"
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - Free
+        - Free to audit or free tier (limits apply)
+        - Paid
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it good?
+      description: One or two sentences on who it helps and what you learned from it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I opened the link and it works
+          required: true
+        - label: It is shared legally by its owner (not a pirated copy)
+          required: true
+        - label: I would like to add it myself with a pull request
