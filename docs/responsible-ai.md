@@ -4,7 +4,7 @@
 
 **Models affect real people.** A classifier that is wrong 5% of the time is wrong for *someone*, and that someone is rarely the person who built it. Even a student project can quietly decide who gets seen, believed or helped. We want every member to leave this track knowing how to build things that are useful **and** fair, private, safe and honest.
 
-Responsible AI is not a lecture in Week 8. It is a **habit in every session**, a **question in every proposal** and a **gate every project passes** before demo day.
+Responsible AI is not a lecture in Week 9. It is a **habit in every session**, a **question in every proposal** and a **gate every project passes** before demo day.
 
 > [!NOTE]
 > This guide is a practical working agreement for our projects, not legal advice. Our practices draw on [Google's responsible AI practices](https://ai.google/responsibility/responsible-ai-practices/), the [People + AI Guidebook](https://pair.withgoogle.com/guidebook/) and the model card and datasheet research listed at the end.
@@ -32,7 +32,7 @@ Responsible AI is not a lecture in Week 8. It is a **habit in every session**, a
 - [ ] Use only data you have the **right to use**, and state its licence and source
 - [ ] Evaluate against a **baseline** and report **more than accuracy**, including per-group results where groups exist
 - [ ] Write a [model card and data card](../projects/_template/MODEL_CARD.md) and keep them truthful
-- [ ] Complete the [responsible AI checklist](../resources/responsible-ai-checklist.md) and pass the **Week 8 review**
+- [ ] Complete the [responsible AI checklist](../resources/responsible-ai-checklist.md) and pass the **Week 9 review**
 - [ ] For LLM apps: **cite sources**, show that output is AI-generated, and defend against [prompt injection](../SECURITY.md)
 - [ ] Credit the datasets, models and people you build on
 
@@ -68,7 +68,7 @@ If your idea touches one of these, say so in the proposal. We will help you find
 
 <a id="review"></a>
 
-## 🔍 The responsible AI review (Gate C, Week 8)
+## 🔍 The responsible AI review (Gate C, Week 9)
 
 Every project goes through the same short, friendly review. It is a **conversation to improve the project**, not an exam.
 
@@ -101,7 +101,7 @@ flowchart LR
 | Model card template | [`projects/_template/MODEL_CARD.md`](../projects/_template/MODEL_CARD.md) |
 | Data card template | [`projects/_template/DATA_CARD.md`](../projects/_template/DATA_CARD.md) |
 | Responsible AI checklist | [`resources/responsible-ai-checklist.md`](../resources/responsible-ai-checklist.md) |
-| Slice evaluation, model cards, red-teaming | [Week 8 session](../weekly-sessions/week-08-responsible-ai/README.md) |
+| Slice evaluation, model cards, red-teaming | [Week 9 session](../weekly-sessions/week-09-responsible-ai/README.md) |
 | Learning path stage | [Stage 5: Responsible AI](../learning-path/05-responsible-ai.md) |
 
 ---

@@ -4,9 +4,9 @@
 
 # 📅 Weekly Sessions
 
-**10 weeks · 1 session a week · 1 thing working at the end of each**
+**Phase 1: 6 weeks · 1 session a week · 1 thing working at the end of each**
 
-![Weeks](https://img.shields.io/badge/weeks-10-4285F4?style=for-the-badge)
+![Phase 1](https://img.shields.io/badge/phase%201-6%20weeks-4285F4?style=for-the-badge)
 ![Level](https://img.shields.io/badge/level-beginner%20friendly-34A853?style=for-the-badge)
 ![Cost](https://img.shields.io/badge/cost-free%20to%20join-FBBC04?style=for-the-badge&labelColor=555)
 ![Compute](https://img.shields.io/badge/compute-free%20in%20your%20browser-EA4335?style=for-the-badge)
@@ -18,73 +18,59 @@
 ---
 
 > [!NOTE]
-> Every week folder has the same layout: **goal → objectives → prep → agenda → hands-on → Responsible AI moment → take-home challenge → notes and slides**. Once you know one week, you know them all. Four weeks include a runnable notebook.
+> Every week folder has the same layout: **goal → objectives → prep → agenda → hands-on → Responsible AI moment → take-home challenge → notes and slides**. Once you know one week, you know them all. Phase 1 weeks also open with **💡 Why this matters**.
 
-## 🗺️ The semester at a glance
+## 🗺️ The plan at a glance
+
+Weeks are a sequence, not calendar dates. Session times and venues are posted in the track channel.
 
 ```mermaid
-gantt
-    title AI/ML Track Semester 2026 (draft dates)
-    dateFormat YYYY-MM-DD
-    axisFormat %d %b
-    section 🌱 Foundations
-    Week 1 Welcome and Python for data     :w1, 2026-10-14, 7d
-    Week 2 Your first model                :w2, after w1, 7d
-    section 🧠 Core ML and deep learning
-    Week 3 Evaluate honestly               :w3, after w2, 7d
-    Week 4 Neural networks from scratch    :w4, after w3, 7d
-    Week 5 Deep learning in practice       :w5, after w4, 7d
-    section ✨ Generative AI
-    Week 6 Language models and Gemini      :w6, after w5, 7d
-    Week 7 RAG and agents study jam        :w7, after w6, 7d
-    section 🚢 Ship it responsibly
-    Week 8 Responsible AI                  :crit, w8, after w7, 7d
-    Week 9 From notebook to app            :w9, after w8, 7d
-    section 🎤 Show
-    Week 10 Demo day                       :milestone, w10, after w9, 0d
+flowchart LR
+    subgraph P1[🌱 Phase 1: How machines learn]
+        direction LR
+        W1[1 · Data] --> W2[2 · First model] --> W3[3 · Evaluate honestly] --> W4[4 · Neural nets from scratch] --> W5[5 · Deep learning in practice] --> W6[6 · Showcase]
+    end
+    subgraph P2[🚢 Phase 2: Build with AI, draft]
+        direction LR
+        W7[7 · LLMs and Gemini] --> W8[8 · RAG and agents] --> W9[9 · Responsible AI] --> W10[10 · Notebook to app] --> W11[11 · Demo day]
+    end
+    P1 --> P2
+    style W6 fill:#34A853,color:#fff,stroke:#34A853
+    style W9 fill:#EA4335,color:#fff,stroke:#EA4335
+    style W11 fill:#34A853,color:#fff,stroke:#34A853
 ```
 
 > [!TIP]
-> Red = the **Responsible AI review** that every project must pass. Dates are a draft and may shift around exams. Changes are announced in the track channel.
+> Green = the two finish lines (the Phase 1 showcase and demo day). Red = the **Responsible AI review** every team project must pass. See the [roadmap](../roadmap/semester-roadmap.md) for why the plan is shaped this way.
 
 ---
 
-## 🌱 Phase 1: Foundations
+## 🌱 Phase 1: How machines learn (weeks 1 to 6)
 
-| | Week | Date | Session | You will... | Status |
-|:-:|:-:|:-:|---|---|:-:|
-| 🐍 | **1** | 14 Oct | **[Welcome and Python for data](week-01-welcome-and-python-for-data/README.md)** | Understand what ML is and explore a dataset in Colab | 🟡 Upcoming |
-| 🔢 | **2** | 21 Oct | **[Your first model](week-02-your-first-model/README.md)** | Train a model that reads handwriting and beat a baseline | 🟡 Upcoming |
+Three fields only: **📊 Data**, **🧮 Classical ML** and **🧠 Neural networks**.
 
-## 🧠 Phase 2: Core ML and deep learning
+| | Week | Field | Session | You will... | Status |
+|:-:|:-:|---|---|---|:-:|
+| 🐍 | **1** | 📊 Data | **[Welcome and Python for data](week-01-welcome-and-python-for-data/README.md)** | Understand what ML is and explore a dataset in Colab | 🟡 Upcoming |
+| 🔢 | **2** | 🧮 Classical ML | **[Your first model](week-02-your-first-model/README.md)** | Train a model that reads handwriting and beat a baseline | 🟡 Upcoming |
+| ⚖️ | **3** | 🧮 Classical ML | **[Evaluate honestly](week-03-evaluate-honestly/README.md)** | Spot overfitting, leakage and the accuracy trap | 🟡 Upcoming |
+| 🧬 | **4** | 🧠 Neural networks | **[Neural networks from scratch](week-04-neural-networks-from-scratch/README.md)** | Train a neural network with only NumPy, then start a mini-project | 🟡 Upcoming |
+| 🖼️ | **5** | 🧠 Neural networks | **[Deep learning in practice](week-05-deep-learning-in-practice/README.md)** | Fine-tune a pretrained image model on a free GPU | 🟡 Upcoming |
+| 🎤 | **6** | All three | **[Phase 1 showcase](week-06-phase-1-showcase/README.md)** | Present your mini-project and explain why you trust it | 🟡 Upcoming |
 
-| | Week | Date | Session | You will... | Status |
-|:-:|:-:|:-:|---|---|:-:|
-| ⚖️ | **3** | 28 Oct | **[Evaluate honestly](week-03-evaluate-honestly/README.md)** | Spot overfitting, leakage and the accuracy trap | 🟡 Upcoming |
-| 🧬 | **4** | 4 Nov | **[Neural networks from scratch](week-04-neural-networks-from-scratch/README.md)** | Train a neural network with only NumPy, then pitch a project | 🟡 Upcoming |
-| 🖼️ | **5** | 11 Nov | **[Deep learning in practice](week-05-deep-learning-in-practice/README.md)** | Fine-tune a pretrained image model on a free GPU | 🟡 Upcoming |
+## 🚢 Phase 2: Build with AI (weeks 7 to 11, draft)
 
-## ✨ Phase 3: Generative AI
+Finalised after the Phase 1 retrospective.
 
-| | Week | Date | Session | You will... | Status |
-|:-:|:-:|:-:|---|---|:-:|
-| 💬 | **6** | 18 Nov | **[Language models and Gemini](week-06-language-models-and-gemini/README.md)** | Prompt well and call the Gemini API safely | 🟡 Upcoming |
-| 🔎 | **7** | 25 Nov | **[RAG and agents study jam](week-07-rag-and-agents-study-jam/README.md)** | Build a question-answering bot that cites its sources | 🟡 Upcoming |
+| | Week | Session | You will... | Status |
+|:-:|:-:|---|---|:-:|
+| 💬 | **7** | **[Language models and Gemini](week-07-language-models-and-gemini/README.md)** | Prompt well, call the Gemini API safely, pitch a team project | ⚪ Draft |
+| 🔎 | **8** | **[RAG and agents study jam](week-08-rag-and-agents-study-jam/README.md)** | Build a question-answering bot that cites its sources | ⚪ Draft |
+| 🛡️ | **9** | **[Responsible AI](week-09-responsible-ai/README.md)** | Write model cards, test fairness slices and red-team a project | ⚪ Draft |
+| 📦 | **10** | **[From notebook to app](week-10-from-notebook-to-app/README.md)** | Add tests, build a demo and get a review in the project clinic | ⚪ Draft |
+| 🌟 | **11** | **[Demo day](week-11-demo-day/README.md)** | Show what you built, reflect, and plan what comes next | ⚪ Draft |
 
-## 🚢 Phase 4: Ship it responsibly
-
-| | Week | Date | Session | You will... | Status |
-|:-:|:-:|:-:|---|---|:-:|
-| 🛡️ | **8** | 2 Dec | **[Responsible AI](week-08-responsible-ai/README.md)** | Write model cards, test fairness slices and red-team a project | 🟡 Upcoming |
-| 📦 | **9** | 9 Dec | **[From notebook to app](week-09-from-notebook-to-app/README.md)** | Add tests, build a demo and get a review in the project clinic | 🟡 Upcoming |
-
-## 🎤 Phase 5: Show
-
-| | Week | Date | Session | You will... | Status |
-|:-:|:-:|:-:|---|---|:-:|
-| 🌟 | **10** | 16 Dec | **[Demo day](week-10-demo-day/README.md)** | Show what you built, reflect, and plan the next semester | 🟡 Upcoming |
-
-**Status key:** 🟡 Upcoming · 🟢 Done · 🔵 Happening now · ⚪ Rescheduled
+**Status key:** 🟡 Upcoming · 🟢 Done · 🔵 Happening now · ⚪ Draft (still being planned)
 
 ---
 
@@ -135,16 +121,20 @@ See the [contributing guide](../CONTRIBUTING.md) and the [session playbook](../d
 Copy this into your [Member Roadmap](https://github.com/GDG-TUM/member-roadmaps) issue and tick as you go:
 
 ```markdown
+Phase 1: How machines learn
 - [ ] Week 1: Welcome and Python for data (profile PR merged)
 - [ ] Week 2: Your first model
 - [ ] Week 3: Evaluate honestly (first Kaggle submission)
-- [ ] Week 4: Neural networks from scratch (project pitch given)
-- [ ] Week 5: Deep learning in practice (project proposal submitted)
-- [ ] Week 6: Language models and Gemini
-- [ ] Week 7: RAG and agents study jam
-- [ ] Week 8: Responsible AI (model card and review done)
-- [ ] Week 9: From notebook to app
-- [ ] Week 10: Demo day
+- [ ] Week 4: Neural networks from scratch (mini-project pair and dataset chosen)
+- [ ] Week 5: Deep learning in practice
+- [ ] Week 6: Phase 1 showcase (mini-project presented)
+
+Phase 2: Build with AI
+- [ ] Week 7: Language models and Gemini (team project proposed)
+- [ ] Week 8: RAG and agents study jam
+- [ ] Week 9: Responsible AI (model card and review done)
+- [ ] Week 10: From notebook to app
+- [ ] Week 11: Demo day
 ```
 
 ---

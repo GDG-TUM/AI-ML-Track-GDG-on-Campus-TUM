@@ -19,11 +19,11 @@ Mentors come from: senior students, alumni, lecturers who are interested in the 
 
 | When | What |
 |---|---|
-| **Week 4** | Teams pitch ideas. Mentors listen and note who they would like to help. |
-| **Week 5** | Maintainers match each approved team with a mentor, considering topic, availability and fit. |
-| **Weeks 5 to 10** | A short **weekly check-in** (15 to 30 minutes) per team |
-| **Week 8** | The mentor helps with the responsible AI review |
-| **Week 10** | The mentor attends demo day and gives feedback |
+| **Week 6** | Mentors attend the Phase 1 showcase and note who they would like to help |
+| **Week 7** | Teams pitch ideas. Maintainers match each approved team with a mentor, considering topic, availability and fit. |
+| **Weeks 7 to 11** | A short **weekly check-in** (15 to 30 minutes) per team |
+| **Week 9** | The mentor helps with the responsible AI review |
+| **Week 11** | The mentor attends demo day and gives feedback |
 
 A mentor can have **one or two teams**. Quality beats quantity.
 

@@ -28,13 +28,13 @@ flowchart LR
 
 | Thing | Where it happens | Who owns it |
 |---|---|---|
-| Planning the semester | [`roadmap/`](../roadmap/semester-roadmap.md) and the [chapter board](https://github.com/orgs/GDG-TUM/projects/1) | Track Lead |
+| Planning each phase | [`roadmap/`](../roadmap/semester-roadmap.md) and the [chapter board](https://github.com/orgs/GDG-TUM/projects/1) | Track Lead |
 | Running a session | `weekly-sessions/week-NN-*` and the [session playbook](session-playbook.md) | The session host |
 | Proposing a session or project | An [issue form](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) | The proposer |
 | Changing anything in the repo | A pull request | The author, with a reviewer |
 | Asking for help | A question issue or the track channel | Anyone |
 | Making an important decision | An issue, then a [decision record](decisions/README.md) | Track Lead, after consulting maintainers |
-| Reviewing a project for risk | The [responsible AI review](responsible-ai.md#review) in Week 8 | Maintainers and mentors |
+| Reviewing a project for risk | The [responsible AI review](responsible-ai.md#review) in Week 9 | Maintainers and mentors |
 
 ---
 
@@ -248,6 +248,6 @@ We use [Semantic Versioning](https://semver.org) in a way that suits a curriculu
 | **Session dry run** | Tuesday before each session | 30 min | No surprises on the day |
 | **Project check-in** | Every team, weekly | 15 min | Progress, blockers, next step, with a mentor |
 | **Member check-in** | Monthly | 15 min | Nobody falls behind quietly |
-| **Mid-semester health check** | Week 5 | 30 min | Are we on track? Adjust the plan |
-| **Retrospective** | Week 10 | 45 min | What worked, what to change, what to keep |
+| **Phase 1 retrospective** | Week 6 | 15 min | What helped, what got in the way; finalise Phase 2 |
+| **Retrospective** | Week 11 | 45 min | What worked, what to change, what to keep |
 | **Handover** | End of the academic year | 60 min | See the [handover checklist](maintainers-guide.md#handover) |

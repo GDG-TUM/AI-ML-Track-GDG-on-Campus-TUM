@@ -92,11 +92,11 @@ body:
     attributes:
       label: Milestones
       value: |
-        - [ ] Week 5: proposal approved and repo created from the template
-        - [ ] Week 7: baseline model and honest evaluation
-        - [ ] Week 8: responsible AI review and model card
-        - [ ] Week 9: working demo and tests
-        - [ ] Week 10: demo day
+        - [ ] Week 7: proposal approved and repo created from the template
+        - [ ] Week 8: baseline model and honest evaluation
+        - [ ] Week 9: responsible AI review and model card
+        - [ ] Week 10: working demo and tests
+        - [ ] Week 11: demo day
   - type: textarea
     id: help
     attributes:

@@ -31,7 +31,7 @@
           - "docs/responsible-ai.md"
           - "resources/responsible-ai-checklist.md"
           - "learning-path/05-responsible-ai.md"
-          - "weekly-sessions/week-08-responsible-ai/**"
+          - "weekly-sessions/week-09-responsible-ai/**"
 
 "area: community":
   - changed-files:

@@ -61,7 +61,7 @@ git fetch upstream
 git checkout -b <type>/<short-description> upstream/main
 ```
 
-Examples: `feat/week-06-gemini-notebook`, `fix/broken-colab-link`, `docs/glossary-embeddings`
+Examples: `feat/week-05-transfer-learning-notebook`, `fix/broken-colab-link`, `docs/glossary-embeddings`
 
 ---
 

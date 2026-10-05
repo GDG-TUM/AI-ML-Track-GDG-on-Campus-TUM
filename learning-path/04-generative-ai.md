@@ -4,7 +4,7 @@
 
 **Goal:** Build a useful, honest app on top of a large language model.
 
-**Matching sessions:** [Week 6: Language models and Gemini](../weekly-sessions/week-06-language-models-and-gemini/README.md) and [Week 7: RAG and agents study jam](../weekly-sessions/week-07-rag-and-agents-study-jam/README.md)
+**Matching sessions:** [Week 7: Language models and Gemini](../weekly-sessions/week-07-language-models-and-gemini/README.md) and [Week 8: RAG and agents study jam](../weekly-sessions/week-08-rag-and-agents-study-jam/README.md)
 
 ## What you will learn
 

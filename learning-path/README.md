@@ -21,14 +21,14 @@ flowchart LR
     style S6 fill:#34A853,color:#fff,stroke:#34A853
 ```
 
-| Stage | Topic | Weeks | Read |
-|-------|-------|-------|------|
-| 1 | Foundations | 1 | [01-foundations.md](01-foundations.md) |
-| 2 | Core machine learning | 2, 3 | [02-core-ml.md](02-core-ml.md) |
-| 3 | Deep learning | 4, 5 | [03-deep-learning.md](03-deep-learning.md) |
-| 4 | Generative AI | 6, 7 | [04-generative-ai.md](04-generative-ai.md) |
-| 5 | Responsible AI | 8 (and every week) | [05-responsible-ai.md](05-responsible-ai.md) |
-| 6 | Ship it | 9, 10 | [06-ship-it.md](06-ship-it.md) |
+| Stage | Topic | Phase | Weeks | Read |
+|-------|-------|-------|-------|------|
+| 1 | Foundations | 1 | 1 | [01-foundations.md](01-foundations.md) |
+| 2 | Core machine learning | 1 | 2, 3 | [02-core-ml.md](02-core-ml.md) |
+| 3 | Deep learning | 1 | 4, 5 (showcase in 6) | [03-deep-learning.md](03-deep-learning.md) |
+| 4 | Generative AI | 2 | 7, 8 | [04-generative-ai.md](04-generative-ai.md) |
+| 5 | Responsible AI | 2 | 9 (and a moment every week) | [05-responsible-ai.md](05-responsible-ai.md) |
+| 6 | Ship it | 2 | 10, 11 | [06-ship-it.md](06-ship-it.md) |
 
 > [!NOTE]
 > Stage 5 is a stage of its own **and** a thread through all the others. Every session includes a five-minute Responsible AI moment.

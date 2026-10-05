@@ -2,17 +2,17 @@
 
 # 🚀 Project Lifecycle
 
-Every project follows the same path, so teams know what is expected and reviewers know what to look for. The path has **three gates** that protect learners and the people their models will touch.
+Every **Phase 2 team project** follows the same path, so teams know what is expected and reviewers know what to look for. The path has **three gates** that protect learners and the people their models will touch.
 
 ```mermaid
 flowchart LR
-    A[💡 Idea<br/>week 4 pitch] --> B[📝 Proposal<br/>issue form]
-    B --> G1{Gate A<br/>proposal review}
-    G1 --> C[🌱 Incubating<br/>weeks 5-6]
-    C --> D[🔨 Active<br/>weeks 7-9]
-    D --> G2{Gate B<br/>honest evaluation<br/>week 7}
-    D --> G3{Gate C<br/>responsible AI review<br/>week 8}
-    G3 --> E[🎤 Showcase<br/>week 10]
+    A[💡 Idea<br/>week 7 pitch] --> B[📝 Proposal<br/>issue form]
+    B --> G1{Gate A<br/>proposal review<br/>week 7}
+    G1 --> C[🌱 Incubating<br/>weeks 7-8]
+    C --> D[🔨 Active<br/>weeks 8-10]
+    D --> G2{Gate B<br/>honest evaluation<br/>week 8}
+    D --> G3{Gate C<br/>responsible AI review<br/>week 9}
+    G3 --> E[🎤 Showcase<br/>week 11]
     E --> F[📦 Maintained<br/>or archived]
     style G1 fill:#FBBC04,color:#000,stroke:#FBBC04
     style G2 fill:#4285F4,color:#fff,stroke:#4285F4
@@ -24,16 +24,16 @@ flowchart LR
 
 | Stage | When | What happens | You leave when |
 |---|---|---|---|
-| 💡 **Idea** | Week 4 | A 60-second pitch. Find teammates. | At least 3 people are interested |
-| 📝 **Proposal** | By week 5 | Open a [Project proposal](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) issue. Two maintainers review within a week. | **Gate A** passes |
-| 🌱 **Incubating** | Weeks 5 to 6 | Create your repo from the [starter template](../projects/_template/README.md). Get data. Get a **baseline** running. Start the data card. | A baseline runs end to end |
-| 🔨 **Active** | Weeks 7 to 9 | Iterate. Weekly check-in with your mentor. Keep the board current. | **Gates B and C** pass |
-| 🎤 **Showcase** | Week 10 | Demo, README, model card, short write-up. Add yourselves to the [showcase](../projects/showcase.md). | Demo day is done |
+| 💡 **Idea** | Week 7 | A 60-second pitch. Find teammates. | At least 3 people are interested |
+| 📝 **Proposal** | Week 7 | Open a [Project proposal](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) issue. Two maintainers review it within a few days. | **Gate A** passes |
+| 🌱 **Incubating** | Weeks 7 to 8 | Create your repo from the [starter template](../projects/_template/README.md). Get data. Get a **baseline** running. Start the data card. | A baseline runs end to end |
+| 🔨 **Active** | Weeks 8 to 10 | Iterate. Weekly check-in with your mentor. Keep the board current. | **Gates B and C** pass |
+| 🎤 **Showcase** | Week 11 | Demo, README, model card, short write-up. Add yourselves to the [showcase](../projects/showcase.md). | Demo day is done |
 | 📦 **Maintained or archived** | After | Keep going, or write "what we learned" in the README and archive the repo. Either way, the work stays findable. | n/a |
 
 ## The three gates
 
-### Gate A: proposal review (by week 5)
+### Gate A: proposal review (week 7)
 
 Two maintainers check that:
 
@@ -41,12 +41,12 @@ Two maintainers check that:
 - [ ] The **data** exists, is legal to use and has a licence we can name
 - [ ] There is a **success metric** and a **baseline** to beat
 - [ ] The "who could be harmed?" answer is thoughtful
-- [ ] The scope fits **about five weeks of part-time work**
+- [ ] The scope fits **about four weeks of part-time work**
 - [ ] The team has a mentor, or one is assigned
 
 Outcomes: **Approved**, **Approved with conditions** (for example "no scraping, use this public dataset"), or **Needs changes** with reasons and a path forward. Nobody is rejected, just helped to a better version.
 
-### Gate B: honest evaluation (week 7)
+### Gate B: honest evaluation (week 8)
 
 - [ ] A **baseline** and your model are compared on the **same split**
 - [ ] The test set was used **once**, at the end
@@ -54,7 +54,7 @@ Outcomes: **Approved**, **Approved with conditions** (for example "no scraping, 
 - [ ] You report more than accuracy, and you looked at real mistakes
 - [ ] Results are reproducible (seeds, environment, one command)
 
-### Gate C: responsible AI review (week 8)
+### Gate C: responsible AI review (week 9)
 
 Described in the [Responsible AI guide](responsible-ai.md#review). You complete the [checklist](../resources/responsible-ai-checklist.md), write the **model card** and **data card**, and swap with another team for a short red-team.
 

@@ -1,8 +1,8 @@
 [← Back to AI/ML Track home](../../README.md)
 
-# Week 7: RAG and agents study jam
+# Week 8: RAG and agents study jam
 
-**Date:** Wed 25 Nov (draft; confirm time and venue in the track channel)
+**When:** Phase 2 (draft), week 8. Time and venue are posted in the track channel.
 
 **Goal:** Build a question-answering bot that answers from your own documents and **cites its sources**, and learn what makes an agent different from a chatbot.
 
@@ -18,7 +18,7 @@ By the end you should be able to:
 
 ## Before the session
 
-- [ ] Finish [Week 6](../week-06-language-models-and-gemini/README.md), and have your API key stored safely in Colab Secrets
+- [ ] Finish [Week 7](../week-07-language-models-and-gemini/README.md), and have your API key stored safely in Colab Secrets
 - [ ] Collect **5 short documents** you are allowed to use: your own notes, public documentation, or a published article. **No private or copyrighted course material you do not have the right to share.**
 - [ ] Did the Cloud Track's [agentic AI study jam](https://github.com/GDG-TUM/Cloud-Track-GDG-on-Campus-TUM/blob/main/weekly-sessions/week-04-agentic-ai-study-jam/README.md)? Bring your agent.
 
@@ -73,4 +73,4 @@ Add slides, links, recordings and key takeaways here after the session (via pull
 - Extra resources: *to be added*
 
 ---
-[← Week 6](../week-06-language-models-and-gemini/README.md) | [All sessions](../README.md) | [Week 8 →](../week-08-responsible-ai/README.md)
+[← Week 7](../week-07-language-models-and-gemini/README.md) | [All sessions](../README.md) | [Week 9 →](../week-09-responsible-ai/README.md)

@@ -2,9 +2,15 @@
 
 # Week 2: Your first model
 
-**Date:** Wed 21 Oct (draft; confirm time and venue in the track channel)
+**When:** Phase 1, week 2. Time and venue are posted in the track channel.
+
+**Field:** 🧮 Classical ML
 
 **Goal:** Train a model that reads handwriting, and prove it is better than guessing.
+
+## 💡 Why this matters
+
+"My model is 90% accurate" sounds impressive, but if guessing the most common answer already scores 89%, the model has learned almost nothing. **A score only means something when you compare it with a baseline, on data the model has never seen.** Today you learn the habit that turns a number into evidence. You also learn `fit`, `predict` and `score`, three verbs that work for almost every model you will meet.
 
 ## Learning objectives
 

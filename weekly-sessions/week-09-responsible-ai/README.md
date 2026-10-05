@@ -1,8 +1,8 @@
 [← Back to AI/ML Track home](../../README.md)
 
-# Week 8: Responsible AI
+# Week 9: Responsible AI
 
-**Date:** Wed 2 Dec (draft; confirm time and venue in the track channel)
+**When:** Phase 2 (draft), week 9. Time and venue are posted in the track channel.
 
 **Goal:** Review your own project for fairness, privacy and safety, document it honestly and test another team's work.
 
@@ -80,4 +80,4 @@ Add slides, links, recordings and key takeaways here after the session (via pull
 - Extra resources: *to be added*
 
 ---
-[← Week 7](../week-07-rag-and-agents-study-jam/README.md) | [All sessions](../README.md) | [Week 9 →](../week-09-from-notebook-to-app/README.md)
+[← Week 8](../week-08-rag-and-agents-study-jam/README.md) | [All sessions](../README.md) | [Week 10 →](../week-10-from-notebook-to-app/README.md)

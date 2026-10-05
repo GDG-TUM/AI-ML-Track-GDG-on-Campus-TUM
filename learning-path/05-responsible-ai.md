@@ -4,7 +4,7 @@
 
 **Goal:** Build things that are useful **and** fair, private, safe and honest, and be able to show it.
 
-**Matching session:** [Week 8: Responsible AI](../weekly-sessions/week-08-responsible-ai/README.md), plus a five-minute moment in **every** session.
+**Matching session:** [Week 9: Responsible AI](../weekly-sessions/week-09-responsible-ai/README.md), plus a five-minute moment in **every** session.
 
 ## What you will learn
 
@@ -18,7 +18,7 @@
 
 ## Hands-on
 
-1. Write a [model card](../projects/_template/MODEL_CARD.md) and [data card](../projects/_template/DATA_CARD.md) for your Week 3 model or your project.
+1. Write a [model card](../projects/_template/MODEL_CARD.md) and [data card](../projects/_template/DATA_CARD.md) for your mini-project or your team project.
 2. Evaluate your model on at least two **slices** of your data and report any gap.
 3. Complete the [responsible AI checklist](../resources/responsible-ai-checklist.md), then red-team another team's project.
 
