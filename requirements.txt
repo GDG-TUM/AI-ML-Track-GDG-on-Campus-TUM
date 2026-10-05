@@ -2,7 +2,7 @@
 # On Google Colab or Kaggle you do not need this file: these libraries are preinstalled.
 numpy>=1.26
 pandas>=2.1
-scikit-learn>=1.4
+scikit-learn>=1.9.1
 matplotlib>=3.8
 jupyterlab>=4.0
 ipykernel>=6.29
