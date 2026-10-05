@@ -1,6 +1,6 @@
 # Libraries for the starter project. Add yours below, and keep this file up to date.
-numpy>=1.26
-pandas>=2.1
-scikit-learn>=1.4
-matplotlib>=3.8
-pytest>=8.0
+numpy>=2.5.3
+pandas>=3.0.6
+scikit-learn>=1.9.1
+matplotlib>=3.11.2
+pytest>=9.1.1
