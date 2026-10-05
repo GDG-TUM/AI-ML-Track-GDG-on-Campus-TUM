@@ -8,7 +8,7 @@
 git status                         # what changed?
 git diff                           # show unstaged changes
 git add path/to/file               # stage a file
-git commit -m "feat(sessions): add week 6 notebook"
+git commit -m "feat(sessions): add week 5 notebook"
 git log --oneline -10              # recent history
 git switch -c feat/my-change       # new branch
 git switch main                    # go back to main

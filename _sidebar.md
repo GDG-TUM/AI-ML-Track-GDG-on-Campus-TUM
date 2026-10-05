@@ -1,20 +1,22 @@
 - [🏠 Home](/README.md)
+- [🔭 The Vision](/vision/README.md)
 - [🚀 Getting Started](/GETTING-STARTED.md)
 - [❓ FAQ](/FAQ.md)
 
 - **🗓️ Plan**
-  - [Semester Roadmap](/roadmap/semester-roadmap.md)
+  - [Roadmap](/roadmap/semester-roadmap.md)
   - [Weekly Sessions](/weekly-sessions/README.md)
     - [Week 1: Welcome and Python for data](/weekly-sessions/week-01-welcome-and-python-for-data/README.md)
     - [Week 2: Your first model](/weekly-sessions/week-02-your-first-model/README.md)
     - [Week 3: Evaluate honestly](/weekly-sessions/week-03-evaluate-honestly/README.md)
     - [Week 4: Neural networks from scratch](/weekly-sessions/week-04-neural-networks-from-scratch/README.md)
     - [Week 5: Deep learning in practice](/weekly-sessions/week-05-deep-learning-in-practice/README.md)
-    - [Week 6: Language models and Gemini](/weekly-sessions/week-06-language-models-and-gemini/README.md)
-    - [Week 7: RAG and agents study jam](/weekly-sessions/week-07-rag-and-agents-study-jam/README.md)
-    - [Week 8: Responsible AI](/weekly-sessions/week-08-responsible-ai/README.md)
-    - [Week 9: From notebook to app](/weekly-sessions/week-09-from-notebook-to-app/README.md)
-    - [Week 10: Demo day](/weekly-sessions/week-10-demo-day/README.md)
+    - [Week 6: Phase 1 showcase](/weekly-sessions/week-06-phase-1-showcase/README.md)
+    - [Week 7: Language models and Gemini](/weekly-sessions/week-07-language-models-and-gemini/README.md)
+    - [Week 8: RAG and agents study jam](/weekly-sessions/week-08-rag-and-agents-study-jam/README.md)
+    - [Week 9: Responsible AI](/weekly-sessions/week-09-responsible-ai/README.md)
+    - [Week 10: From notebook to app](/weekly-sessions/week-10-from-notebook-to-app/README.md)
+    - [Week 11: Demo day](/weekly-sessions/week-11-demo-day/README.md)
 
 - **🧭 Learn**
   - [Learning Path](/learning-path/README.md)

@@ -13,6 +13,7 @@ A decision record is a short note that captures **what we decided, why, and what
 | [0003](0003-conventional-commits-and-squash-merge.md) | Conventional Commits, squash merge and PR-title checks | Accepted |
 | [0004](0004-framework-policy.md) | scikit-learn, then Keras for guided labs, PyTorch welcome | Accepted, revisit each semester |
 | [0005](0005-notebooks-committed-clean.md) | Notebooks are committed clean and run in CI | Accepted |
+| [0006](0006-phased-curriculum.md) | A phased curriculum: six weeks on how machines learn, first | Accepted |
 
 ## When to write one
 

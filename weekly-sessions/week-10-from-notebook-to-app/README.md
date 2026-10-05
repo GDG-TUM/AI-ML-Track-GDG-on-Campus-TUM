@@ -1,8 +1,8 @@
 [← Back to AI/ML Track home](../../README.md)
 
-# Week 9: From notebook to app
+# Week 10: From notebook to app
 
-**Date:** Wed 9 Dec (draft; confirm time and venue in the track channel)
+**When:** Phase 2 (draft), week 10. Time and venue are posted in the track channel.
 
 **Goal:** Make your project reproducible, tested and demo-ready, with a review from a mentor.
 
@@ -18,7 +18,7 @@ By the end you should be able to:
 
 ## Before the session
 
-- [ ] Finish [Week 8](../week-08-responsible-ai/README.md) and the review follow-ups
+- [ ] Finish [Week 9](../week-09-responsible-ai/README.md) and the review follow-ups
 - [ ] Read [Stage 6: Ship it](../../learning-path/06-ship-it.md)
 - [ ] Look at the [starter template](../../projects/_template/README.md) and its tests
 - [ ] Come with your project open and one specific question for the clinic
@@ -95,4 +95,4 @@ Add slides, links, recordings and key takeaways here after the session (via pull
 - Extra resources: *to be added*
 
 ---
-[← Week 8](../week-08-responsible-ai/README.md) | [All sessions](../README.md) | [Week 10 →](../week-10-demo-day/README.md)
+[← Week 9](../week-09-responsible-ai/README.md) | [All sessions](../README.md) | [Week 11 →](../week-11-demo-day/README.md)

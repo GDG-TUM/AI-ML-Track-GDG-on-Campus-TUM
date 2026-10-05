@@ -20,7 +20,7 @@
 
 1. Run the [Week 4 notebook](../weekly-sessions/week-04-neural-networks-from-scratch/neural_net_from_scratch.ipynb) and do the experiments in its challenge.
 2. In Week 5, fine-tune a pretrained image model on a small dataset you collect yourself.
-3. Pitch a project idea (Week 4) and submit a proposal (Week 5).
+3. Start your Phase 1 mini-project (Week 4) and present it at the [Phase 1 showcase](../weekly-sessions/week-06-phase-1-showcase/README.md) (Week 6).
 
 ## Free resources
 

@@ -103,8 +103,8 @@ Source: **Deploy from a branch**, branch `main`, folder `/ (root)`. The docsify 
 | **Weekly (Fri)** | 20-minute maintainer sync, merge ready PRs, plan next week |
 | **Weekly (auto)** | Read the link-check issue if one is opened, and fix or exclude the links |
 | **Monthly** | Merge Dependabot PRs, run `pre-commit autoupdate`, member check-ins |
-| **Semester start** | Copy dates into the [roadmap](../roadmap/semester-roadmap.md), update session dates, welcome new members, archive last cohort's projects |
-| **Mid-semester (Week 5)** | Health check: attendance, project progress, adjust the plan |
+| **Semester start** | Check the [roadmap](../roadmap/semester-roadmap.md), post session times and venues in the track channel, welcome new members, archive last cohort's projects |
+| **End of Phase 1 (Week 6)** | Retrospective, attendance check, finalise Phase 2 in the roadmap |
 | **Semester end** | Retrospective, release, update the showcase, thank mentors, run the handover |
 
 ---
@@ -119,7 +119,7 @@ Source: **Deploy from a branch**, branch `main`, folder `/ (root)`. The docsify 
 4. Edit the notes if needed (add a sentence on the highlights) and click **Publish release**.
 5. Move `[Unreleased]` entries in the changelog under the new version in a small `docs:` PR.
 
-Release at the end of each phase (weeks 2, 5, 7, 9 and 10) and at the end of the year.
+Release at the end of each phase (week 6 and week 11) and at the end of the year.
 
 ---
 

@@ -1,8 +1,8 @@
 [← Back to AI/ML Track home](../../README.md)
 
-# Week 6: Language models and Gemini
+# Week 7: Language models and Gemini
 
-**Date:** Wed 18 Nov (draft; confirm time and venue in the track channel)
+**When:** Phase 2 (draft), week 7. Time and venue are posted in the track channel.
 
 **Goal:** Understand how language models behave, prompt them well and call the Gemini API without leaking a key.
 
@@ -18,7 +18,7 @@ By the end you should be able to:
 
 ## Before the session
 
-- [ ] Finish [Week 5](../week-05-deep-learning-in-practice/README.md)
+- [ ] Finish [Phase 1](../week-06-phase-1-showcase/README.md)
 - [ ] Skim [Stage 4: Generative AI](../../learning-path/04-generative-ai.md)
 - [ ] Have your Google account ready for [Google AI Studio](https://aistudio.google.com). **Do not create a key yet.** We do it together, with safe storage.
 
@@ -63,6 +63,7 @@ More patterns in the [prompting cheat sheet](../../resources/cheatsheets/prompti
 
 - [ ] Write a prompt for a task you care about (for example, summarising lecture notes into questions) and a **10-case test set**. Score your outputs and improve the prompt. Did your score go up?
 - [ ] Find **one failure** and explain why you think it happened
+- [ ] **Team projects:** post your idea in the track channel, form a team of 3 to 5 and open a [Project proposal](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) issue (**Gate A**)
 - [ ] Run `git grep -i "AIza"` in any repo you have been working in, to make sure no key is hiding. Then check `.gitignore` includes `.env`.
 
 ## 📝 Session notes
@@ -74,4 +75,4 @@ Add slides, links, recordings and key takeaways here after the session (via pull
 - Extra resources: *to be added*
 
 ---
-[← Week 5](../week-05-deep-learning-in-practice/README.md) | [All sessions](../README.md) | [Week 7 →](../week-07-rag-and-agents-study-jam/README.md)
+[← Week 6](../week-06-phase-1-showcase/README.md) | [All sessions](../README.md) | [Week 8 →](../week-08-rag-and-agents-study-jam/README.md)

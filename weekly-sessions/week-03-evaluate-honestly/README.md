@@ -2,9 +2,15 @@
 
 # Week 3: Evaluate honestly
 
-**Date:** Wed 28 Oct (draft; confirm time and venue in the track channel)
+**When:** Phase 1, week 3. Time and venue are posted in the track channel.
+
+**Field:** 🧮 Classical ML
 
 **Goal:** Learn to tell when a score deserves to be believed.
+
+## 💡 Why this matters
+
+This is the most important week of Phase 1. Most ML failures in the real world are not bad models. They are **bad evaluations**: the model was never as good as the team believed. Today you will watch a careful-looking workflow "discover" a pattern in pure random noise. If it can fool you on coin flips, it can fool you on real data about real people. Learning to catch overfitting, leakage and the accuracy trap is what separates someone who can *run* ML from someone who can be *trusted* with it. AI coding assistants make these mistakes too, and you will be the one who has to catch them.
 
 ## Learning objectives
 
@@ -35,7 +41,7 @@ By the end you should be able to:
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/blob/main/weekly-sessions/week-03-evaluate-honestly/evaluate_honestly.ipynb)
 
-Notebook: [`evaluate_honestly.ipynb`](evaluate_honestly.ipynb). The leakage demo uses pure random noise: the honest score is about 50%, yet the leaky workflow reports a "discovery". It is the most important result of the semester.
+Notebook: [`evaluate_honestly.ipynb`](evaluate_honestly.ipynb). The leakage demo uses pure random noise: the honest score is about 50%, yet the leaky workflow reports a "discovery". It is the most important result of Phase 1.
 
 **The honest evaluation checklist:**
 

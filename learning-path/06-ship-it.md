@@ -4,7 +4,7 @@
 
 **Goal:** Turn a notebook into something other people can run, test and use.
 
-**Matching sessions:** [Week 9: From notebook to app](../weekly-sessions/week-09-from-notebook-to-app/README.md) and [Week 10: Demo day](../weekly-sessions/week-10-demo-day/README.md)
+**Matching sessions:** [Week 10: From notebook to app](../weekly-sessions/week-10-from-notebook-to-app/README.md) and [Week 11: Demo day](../weekly-sessions/week-11-demo-day/README.md)
 
 ## What you will learn
 

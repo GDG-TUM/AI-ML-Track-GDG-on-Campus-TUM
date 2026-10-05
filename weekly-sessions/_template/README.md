@@ -2,9 +2,15 @@
 
 # Week N: Title
 
-**Date:**
+**When:** Phase N, week N. Time and venue are posted in the track channel.
+
+**Field:**
 
 **Goal:**
+
+## 💡 Why this matters
+
+One short paragraph: why should a member care about this idea, and what goes wrong for people who do not understand it?
 
 ## Learning objectives
 

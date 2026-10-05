@@ -10,9 +10,9 @@ Competing is one of the fastest ways to learn. You get a real problem, a deadlin
 |---|---|---|
 | [Kaggle](https://www.kaggle.com/competitions) | The best-known competition platform. Start with the *Getting Started* and *Playground* competitions. | Beginners, steady practice. Your first entry is a [Week 3](../weekly-sessions/week-03-evaluate-honestly/README.md) challenge. |
 | [Zindi](https://zindi.africa) | Data science competitions focused on African problems | Local relevance and real datasets |
-| **Google Kenya hackathon (13 Nov 2026)** | The Cloud Track plans to enter teams. AI/ML members are welcome to join. | Building fast with Google tools. **Check the official page for the current rules, eligibility, themes and deadlines.** |
+| **Google and GDG hackathons** | Announced through the chapter. The Cloud Track often enters teams, and AI/ML members are welcome to join. | Building fast with Google tools. **Check the official page for the current rules, eligibility, themes and deadlines.** |
 | **DevFest** | The community-led developer events run by GDG chapters each year | Talks, workshops and networking. Watch the chapter announcements. |
-| **Hack Night** (in-house) | A 3-hour build sprint after [Week 7](../weekly-sessions/week-07-rag-and-agents-study-jam/README.md) | A friendly first taste of building under time pressure |
+| **Hack Night** (in-house) | A 3-hour build sprint after [Week 8](../weekly-sessions/week-08-rag-and-agents-study-jam/README.md) | A friendly first taste of building under time pressure |
 
 ## How we prepare
 

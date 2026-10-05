@@ -83,9 +83,9 @@ git config --global user.email "you@example.com"
 - [Responsible AI guide](docs/responsible-ai.md)
 - **Never commit** passwords, API keys, tokens, `.env` files or personal data.
 
-## 6. Optional: a Gemini API key (needed from Week 6)
+## 6. Optional: a Gemini API key (needed from Week 7)
 
-You will use [Google AI Studio](https://aistudio.google.com) to create a key for the Gemini API in Week 6. **Do not create or paste a key into a notebook before then.** We will show you how to store it safely (Colab Secrets or an environment variable) so it never lands on GitHub.
+You will use [Google AI Studio](https://aistudio.google.com) to create a key for the Gemini API in Week 7. **Do not create or paste a key into a notebook before then.** We will show you how to store it safely (Colab Secrets or an environment variable) so it never lands on GitHub.
 
 ## ✅ Ready?
 

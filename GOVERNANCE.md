@@ -43,7 +43,7 @@ Important decisions go in [`docs/decisions/`](docs/decisions/README.md) so the n
 
 You can be nominated by any maintainer, or nominate yourself with an issue, after you have:
 
-- been active for **at least one semester** (or about 10 weeks)
+- been active for **at least one semester** (Phase 1 and Phase 2)
 - had **several pull requests merged** across more than one area (docs, notebooks, projects)
 - **helped others**: reviews, answers, helping run a session
 - shown you understand and live the [Code of Conduct](CODE_OF_CONDUCT.md)

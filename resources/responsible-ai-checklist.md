@@ -2,7 +2,7 @@
 
 # 🛡️ Responsible AI Checklist
 
-Complete this for **every project** before the [Week 8 review](../docs/responsible-ai.md#review), and keep it updated. Answer honestly: **a ticked box with a thoughtful note beats a perfect-looking list**. Where a box does not apply, write "N/A" and why.
+Complete this for **every project** before the [Week 9 review](../docs/responsible-ai.md#review), and keep it updated. Answer honestly: **a ticked box with a thoughtful note beats a perfect-looking list**. Where a box does not apply, write "N/A" and why.
 
 Project: ______________________  Team: ______________________  Date: ____________
 

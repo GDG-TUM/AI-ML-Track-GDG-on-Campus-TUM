@@ -2,9 +2,15 @@
 
 # Week 5: Deep learning in practice
 
-**Date:** Wed 11 Nov (draft; confirm time and venue in the track channel)
+**When:** Phase 1, week 5. Time and venue are posted in the track channel.
+
+**Field:** 🧠 Neural networks
 
 **Goal:** Fine-tune a pretrained image model on a free GPU, with a dataset you collect yourselves.
+
+## 💡 Why this matters
+
+Training a big model from scratch needs millions of examples and serious compute. Almost nobody does it. Instead, real projects **start from a model that has already learned** and adapt it, so a few dozen of your own photos are enough. This is the normal way modern AI is built, and it is the same idea behind how people use large language models in Phase 2: a model pretrained on a huge dataset, adapted to a specific task. It also brings back Week 3 in a new form: a model that works on *your* photos may quietly fail on someone else's.
 
 ## Learning objectives
 
@@ -14,7 +20,7 @@ By the end you should be able to:
 - Explain **transfer learning**: why we start from a pretrained model
 - Turn on a free GPU in Colab, and train within its limits
 - Load images from folders, train, evaluate and look at the mistakes
-- Submit a project proposal
+- Explain why transfer learning is how most real AI is built
 
 ## Before the session
 
@@ -29,7 +35,7 @@ By the end you should be able to:
 3. Concept: convolutions, pretrained models, fine-tuning (20 min)
 4. Hands-on in pairs: train and evaluate your 3-class model (40 min)
 5. 🛡️ Responsible AI moment (5 min)
-6. Share-out, project proposal reminder, take-home challenge (10 min)
+6. Share-out, mini-project check-in, take-home challenge (10 min)
 
 ## Hands-on reference
 
@@ -53,8 +59,7 @@ Why do we collect photos of **objects, not people**? Faces and bodies are person
 
 - [ ] Finish your 3-class model. How accurate is it on **new photos taken in different light**?
 - [ ] Try one improvement (more photos, augmentation, fine-tuning) and report whether it helped
-- [ ] **Submit your project proposal** by the end of this week using the [Project proposal form](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose)
-- [ ] Optional: the Cloud Track is preparing for the Google Kenya hackathon on 13 Nov. If you want to join a team, check the official rules and talk to the leads.
+- [ ] **Finish your mini-project** with your partner: a model that beats your baseline, an honest evaluation and one risk. Then prepare your 3-minute presentation for [Week 6](../week-06-phase-1-showcase/README.md).
 
 ## 📝 Session notes
 
@@ -65,4 +70,4 @@ Add slides, links, recordings and key takeaways here after the session (via pull
 - Extra resources: *to be added*
 
 ---
-[← Week 4](../week-04-neural-networks-from-scratch/README.md) | [All sessions](../README.md) | [Week 6 →](../week-06-language-models-and-gemini/README.md)
+[← Week 4](../week-04-neural-networks-from-scratch/README.md) | [All sessions](../README.md) | [Week 6 →](../week-06-phase-1-showcase/README.md)

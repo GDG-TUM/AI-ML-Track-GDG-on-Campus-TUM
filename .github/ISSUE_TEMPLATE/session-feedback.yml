@@ -13,11 +13,12 @@ body:
         - "Week 3: Evaluate honestly"
         - "Week 4: Neural networks from scratch"
         - "Week 5: Deep learning in practice"
-        - "Week 6: Language models and Gemini"
-        - "Week 7: RAG and agents study jam"
-        - "Week 8: Responsible AI"
-        - "Week 9: From notebook to app"
-        - "Week 10: Demo day"
+        - "Week 6: Phase 1 showcase"
+        - "Week 7: Language models and Gemini"
+        - "Week 8: RAG and agents study jam"
+        - "Week 9: Responsible AI"
+        - "Week 10: From notebook to app"
+        - "Week 11: Demo day"
     validations:
       required: true
   - type: dropdown

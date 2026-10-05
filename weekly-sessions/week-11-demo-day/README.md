@@ -1,10 +1,10 @@
 [← Back to AI/ML Track home](../../README.md)
 
-# Week 10: Demo day
+# Week 11: Demo day
 
-**Date:** Wed 16 Dec (draft; confirm time and venue in the track channel)
+**When:** Phase 2 (draft), week 11. Time and venue are posted in the track channel.
 
-**Goal:** Show what you built, learn from each other, and plan the next semester.
+**Goal:** Show what you built, learn from each other, and plan the next phase.
 
 ## Learning objectives
 
@@ -28,7 +28,7 @@ By the end you should be able to:
 2. **Project demos:** 5 minutes of demo and 3 minutes of questions per team (about 50 min for six teams)
 3. Mentor and maintainer feedback (10 min)
 4. **Retrospective:** what worked, what to change, what to keep (15 min)
-5. Recognition, thanks and next semester (10 min)
+5. Recognition, thanks and what comes next (10 min)
 
 ## The five-minute demo
 
@@ -60,7 +60,7 @@ Share **one thing you would now do differently** in a project because of what yo
 ## 🏁 Take-home challenge
 
 - [ ] Add your project to the [showcase](../../projects/showcase.md) with a pull request
-- [ ] Give [session feedback](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) on the whole semester
+- [ ] Give [session feedback](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) on Phase 2 as a whole
 - [ ] Write your **personal retrospective**: three things you learned, one thing you want to learn next
 - [ ] Tell us how you want to stay involved: **mentor, maintainer, session host, competition team, or a new project**
 - [ ] Archive or hand over your project: say in the README whether it will be maintained
@@ -74,4 +74,4 @@ Add slides, links, recordings and key takeaways here after the session (via pull
 - Extra resources: *to be added*
 
 ---
-[← Week 9](../week-09-from-notebook-to-app/README.md) | [All sessions](../README.md)
+[← Week 10](../week-10-from-notebook-to-app/README.md) | [All sessions](../README.md)

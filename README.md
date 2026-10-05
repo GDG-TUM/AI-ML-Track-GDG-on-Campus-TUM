@@ -4,7 +4,7 @@
 
 <br/>
 
-![Semester](https://img.shields.io/badge/semester-10%20weeks-4285F4?style=for-the-badge)
+![Phase 1](https://img.shields.io/badge/phase%201-6%20weeks-4285F4?style=for-the-badge)
 ![Level](https://img.shields.io/badge/level-beginner%20friendly-34A853?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/stack-Python%20%C2%B7%20scikit--learn%20%C2%B7%20Keras%20%C2%B7%20Gemini-EA4335?style=for-the-badge)
 ![Compute](https://img.shields.io/badge/compute-free%20(Colab%20%C2%B7%20Kaggle)-FBBC04?style=for-the-badge&labelColor=555)
@@ -14,7 +14,7 @@
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Conventional Commits](https://img.shields.io/badge/commits-conventional-FE5196)
 
-[🚀 Getting Started](GETTING-STARTED.md) · [📅 Weekly Sessions](weekly-sessions/README.md) · [🧭 Learning Path](learning-path/README.md) · [🛠️ Projects](projects/README.md) · [🛡️ Responsible AI](docs/responsible-ai.md) · [📚 Resources](resources/README.md) · [❓ FAQ](FAQ.md)
+[🔭 Vision](vision/README.md) · [🚀 Getting Started](GETTING-STARTED.md) · [📅 Weekly Sessions](weekly-sessions/README.md) · [🧭 Learning Path](learning-path/README.md) · [🛠️ Projects](projects/README.md) · [🛡️ Responsible AI](docs/responsible-ai.md) · [📚 Resources](resources/README.md) · [❓ FAQ](FAQ.md)
 
 </div>
 
@@ -26,9 +26,11 @@ AI is being built right now, and the people who shape it should include students
 
 We learn the way professionals work: version control, code review, reproducible experiments and honest evaluation. **Responsible AI is part of every session, not an extra at the end.**
 
+🔭 **Want to see where this field can take you?** Read [the vision](vision/README.md).
+
 | 🧠 Understand | 🔨 Build | 🛡️ Be responsible |
 |---|---|---|
-| Know *why* a model works, not just how to call it. We even train a neural network from scratch in NumPy. | Every member finishes with a public project, a model card and a demo. | Fairness, privacy and safety are checked on every project before demo day. |
+| Know *why* a model works, not just how to call it. Phase 1 is six weeks on exactly that, including a neural network from scratch in NumPy. | Every member presents a mini-project in Phase 1, then builds a team project with a model card and a demo in Phase 2. | Fairness, privacy and safety are checked on every project before demo day. |
 
 **No machine learning experience is needed.** Some programming helps, and Week 1 is a gentle Python-for-data session. If you have never written code, tell us: we will pair you with a mentor and share a short pre-work list ([Stage 1](learning-path/01-foundations.md)).
 
@@ -53,10 +55,11 @@ We learn the way professionals work: version control, code review, reproducible 
 
 | I want to... | Go here |
 |--------------|---------|
+| **See what is possible with AI and ML** | [The vision](vision/README.md) |
 | **Set up my laptop (or use no laptop at all)** | [Getting Started](GETTING-STARTED.md) · [Compute guide](resources/compute-guide.md) |
 | **See what happens each week** | [Weekly Sessions](weekly-sessions/README.md) |
 | **Follow the full learning path** | [Learning Path](learning-path/README.md) |
-| **See the semester plan and dates** | [Semester Roadmap](roadmap/semester-roadmap.md) |
+| **See the plan, week by week** | [Roadmap](roadmap/semester-roadmap.md) |
 | **Start or join a project** | [Projects](projects/README.md) · [Ideas](projects/ideas.md) |
 | **Compete in a hackathon or Kaggle** | [Competitions](competitions/README.md) |
 | **Check my model is fair, safe and honest** | [Responsible AI](docs/responsible-ai.md) · [Checklist](resources/responsible-ai-checklist.md) |
@@ -70,11 +73,11 @@ We learn the way professionals work: version control, code review, reproducible 
 
 ```mermaid
 flowchart LR
-    A[🚀 Get set up] --> B[🌱 Foundations<br/>weeks 1-2]
-    B --> C[🧠 Core ML and deep learning<br/>weeks 3-5]
-    C --> D[✨ Generative AI<br/>weeks 6-7]
-    D --> E[🚢 Ship it responsibly<br/>weeks 8-9]
-    E --> F[🎤 Demo day<br/>week 10]
+    A[🚀 Get set up] --> B[📊 Data<br/>week 1]
+    B --> C[🧮 Classical ML<br/>weeks 2-3]
+    C --> D[🧠 Neural networks<br/>weeks 4-5]
+    D --> E[🎤 Phase 1 showcase<br/>week 6]
+    E --> F[🚢 Phase 2: build with AI<br/>weeks 7-11]
     style A fill:#FBBC04,color:#000,stroke:#FBBC04
     style B fill:#4285F4,color:#fff,stroke:#4285F4
     style C fill:#34A853,color:#fff,stroke:#34A853
@@ -93,7 +96,7 @@ flowchart LR
 
 ## 🎯 Track goals for the 2026/27 academic year
 
-By the end of the semester, every active member should be able to:
+**By the end of Phase 1 (week 6)**, every active member should be able to do 1 to 4. **By the end of Phase 2**, 5 to 7 as well.
 
 1. Explain what machine learning is, and when it is *not* the right tool
 2. Load, clean and explore a dataset with Python (NumPy, pandas, matplotlib)
@@ -109,7 +112,7 @@ By the end of the semester, every active member should be able to:
 
 ## 🧭 Learning path
 
-Six stages, each with its own page of topics, hands-on tasks and a checkpoint. [See the full learning path →](learning-path/README.md)
+Six stages, each with its own page of topics, hands-on tasks and a checkpoint. Phase 1 covers Stages 1 to 3, Phase 2 covers Stages 4 to 6. [See the full learning path →](learning-path/README.md)
 
 | Stage | Topics | Outcome | Read |
 |-------|--------|---------|------|
@@ -124,26 +127,33 @@ Six stages, each with its own page of topics, hands-on tasks and a checkpoint. [
 
 <a id="roadmap"></a>
 
-## 🗓️ Semester roadmap (draft: October to December 2026)
+## 🗓️ Roadmap
 
-Click a week to open its agenda, notebook and take-home challenge. [Full roadmap →](roadmap/semester-roadmap.md)
+Click a week to open its agenda, notebook and take-home challenge. [Full roadmap, including why it is shaped this way →](roadmap/semester-roadmap.md)
 
-| Week | Date (draft) | Focus | What we do |
-|------|--------------|-------|-----------|
-| Launch | 5 to 11 Oct | Repo goes live | Core team onboarding, labels synced, board set up |
-| **[1](weekly-sessions/week-01-welcome-and-python-for-data/README.md)** | Wed 14 Oct | Welcome and Python for data | What is ML? NumPy, pandas and charts in Colab |
-| **[2](weekly-sessions/week-02-your-first-model/README.md)** | Wed 21 Oct | Your first model | Train a digit reader, beat a baseline |
-| **[3](weekly-sessions/week-03-evaluate-honestly/README.md)** | Wed 28 Oct | Evaluate honestly | Overfitting, leakage, the accuracy trap; first Kaggle entry |
-| **[4](weekly-sessions/week-04-neural-networks-from-scratch/README.md)** | Wed 4 Nov | Neural networks from scratch | Backprop in NumPy; project pitches |
-| **[5](weekly-sessions/week-05-deep-learning-in-practice/README.md)** | Wed 11 Nov | Deep learning in practice | Transfer learning on a free GPU; project proposals due |
-| **[6](weekly-sessions/week-06-language-models-and-gemini/README.md)** | Wed 18 Nov | Language models and Gemini | Tokens, prompting, the Gemini API |
-| **[7](weekly-sessions/week-07-rag-and-agents-study-jam/README.md)** | Wed 25 Nov | RAG and agents study jam | Build a question-answering bot with sources; Hack Night |
-| **[8](weekly-sessions/week-08-responsible-ai/README.md)** | Wed 2 Dec | Responsible AI | Model cards, fairness slices, red-team swap |
-| **[9](weekly-sessions/week-09-from-notebook-to-app/README.md)** | Wed 9 Dec | From notebook to app | Tests, a demo app, deployment; project clinic |
-| **[10](weekly-sessions/week-10-demo-day/README.md)** | Wed 16 Dec | Demo day | Project demos, retrospective, plan for next semester |
+### 🌱 Phase 1: How machines learn (6 weeks, 3 fields)
+
+| Week | Field | Focus | What we do |
+|:-:|---|---|---|
+| **[1](weekly-sessions/week-01-welcome-and-python-for-data/README.md)** | 📊 Data | Welcome and Python for data | What is ML? NumPy, pandas and charts in Colab |
+| **[2](weekly-sessions/week-02-your-first-model/README.md)** | 🧮 Classical ML | Your first model | Train a digit reader, beat a baseline |
+| **[3](weekly-sessions/week-03-evaluate-honestly/README.md)** | 🧮 Classical ML | Evaluate honestly | Overfitting, leakage, the accuracy trap; first Kaggle entry |
+| **[4](weekly-sessions/week-04-neural-networks-from-scratch/README.md)** | 🧠 Neural networks | Neural networks from scratch | Backprop in NumPy; mini-project starts |
+| **[5](weekly-sessions/week-05-deep-learning-in-practice/README.md)** | 🧠 Neural networks | Deep learning in practice | Transfer learning on a free GPU |
+| **[6](weekly-sessions/week-06-phase-1-showcase/README.md)** | All three | Phase 1 showcase | Mini-project presentations, retrospective |
+
+### 🚢 Phase 2: Build with AI (draft)
+
+| Week | Focus | What we do |
+|:-:|---|---|
+| **[7](weekly-sessions/week-07-language-models-and-gemini/README.md)** | Language models and Gemini | Tokens, prompting, the Gemini API; team projects pitched |
+| **[8](weekly-sessions/week-08-rag-and-agents-study-jam/README.md)** | RAG and agents study jam | Build a question-answering bot with sources; Hack Night |
+| **[9](weekly-sessions/week-09-responsible-ai/README.md)** | Responsible AI | Model cards, fairness slices, red-team swap |
+| **[10](weekly-sessions/week-10-from-notebook-to-app/README.md)** | From notebook to app | Tests, a demo app, deployment; project clinic |
+| **[11](weekly-sessions/week-11-demo-day/README.md)** | Demo day | Project demos, retrospective, plan what comes next |
 
 > [!NOTE]
-> Dates are a starting plan. We will adjust around exams and campus events and post changes in the track channel. The Cloud Track meets on Mondays, so you can do both.
+> Weeks are a sequence, not dates. If a week is lost to exams or campus events, the next session is simply the next week. Times and venues are posted in the track channel. The Cloud Track meets on Mondays, so you can do both.
 
 ---
 
@@ -166,7 +176,7 @@ Click a week to open its agenda, notebook and take-home challenge. [Full roadmap
 
 ## 🚀 Projects
 
-From week 4, members pitch ideas and form small teams (3 to 5 people). Every team builds a project that is **reproducible, evaluated honestly, reviewed for responsible AI and demoed** on demo day.
+In Phase 1, members do a small **mini-project in pairs** (weeks 4 to 6). In Phase 2, members pitch ideas and form teams of 3 to 5 (week 7). Every team builds a project that is **reproducible, evaluated honestly, reviewed for responsible AI and demoed** on demo day.
 
 - A crop-disease photo classifier for smallholder farmers
 - A Swahili text tool: sentiment, translation or a question-answering bot
@@ -258,6 +268,7 @@ Full details, including how to become a maintainer, are in [GOVERNANCE.md](GOVER
 - Members who train **and honestly evaluate** at least one model
 - Projects shown at demo day, each with a model card
 - Public repos and merged pull requests from members
+- Every pair presents a mini-project at the end of Phase 1
 - Session attendance and member feedback after each phase
 - Members who go on to Kaggle or Zindi competitions, hackathons, internships or research
 
@@ -290,7 +301,8 @@ AI-ML-Track-GDG-on-Campus-TUM/
 ├── CONTRIBUTING.md            ← how to contribute (conventions live here)
 ├── GOVERNANCE.md              ← roles and decision making
 ├── CODE_OF_CONDUCT.md · SECURITY.md · SUPPORT.md · CHANGELOG.md · LICENSE
-├── roadmap/                   ← semester plan and dates
+├── vision/                    ← what is possible with this field
+├── roadmap/                   ← the plan: Phase 1 and Phase 2
 ├── learning-path/             ← 6 stages from Python to shipping
 ├── weekly-sessions/           ← one folder per week (agenda, notebook, challenge)
 ├── projects/                  ← guide, ideas, template, showcase
