@@ -2,7 +2,7 @@
 
 # 0005. Notebooks are committed clean and run in CI
 
-- **Status:** Accepted
+- **Status:** Accepted, amended by [0007](0007-week-5-lab-not-run-in-ci.md)
 - **Date:** 2026-10-05
 - **Deciders:** Track Lead
 

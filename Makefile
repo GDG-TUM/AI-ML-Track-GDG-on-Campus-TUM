@@ -27,8 +27,8 @@ format: ## Auto-fix lint issues, format code and clear notebook outputs
 repo-check: ## Check links, structure, member profiles and clean notebooks
 	$(BIN)/python scripts/check_repo.py
 
-notebooks: ## Run every teaching notebook top to bottom
-	$(BIN)/pytest --nbmake weekly-sessions
+notebooks: ## Run the teaching notebooks top to bottom (week 5 is dry-run in Colab, decision 0007)
+	$(BIN)/pytest --nbmake weekly-sessions --ignore=weekly-sessions/week-05-deep-learning-in-practice
 
 template-test: ## Test the starter project template
 	cd projects/_template && ../../$(BIN)/pytest
