@@ -8,6 +8,8 @@
 
 **Goal:**
 
+**The question we answer today:** *A concrete puzzle, not a definition. See the [intuition-first standard](../../docs/session-playbook.md#-the-intuition-first-standard).*
+
 ## 💡 Why this matters
 
 One short paragraph: why should a member care about this idea, and what goes wrong for people who do not understand it?
@@ -42,6 +44,15 @@ One question for the room:
 ## 🏁 Take-home challenge
 
 - [ ]
+
+<details>
+<summary><b>🎤 Host guide</b></summary>
+
+<br/>
+
+The beats of the concept-and-demo segment, what to ask the room before each reveal, and a table of snags to expect. See [Week 1](../week-01-welcome-and-python-for-data/README.md) for an example.
+
+</details>
 
 ## 📝 Session notes
 
