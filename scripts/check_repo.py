@@ -31,7 +31,7 @@ MAX_BYTES = 1024 * 1024
 
 REQUIRED_FILES = [
     "README.md",
-    "LICENSE",
+    "LICENSE.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "GOVERNANCE.md",

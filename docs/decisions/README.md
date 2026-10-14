@@ -12,8 +12,9 @@ A decision record is a short note that captures **what we decided, why, and what
 | [0002](0002-free-compute-first.md) | Free, browser-first compute for everything | Accepted |
 | [0003](0003-conventional-commits-and-squash-merge.md) | Conventional Commits, squash merge and PR-title checks | Accepted |
 | [0004](0004-framework-policy.md) | scikit-learn, then Keras for guided labs, PyTorch welcome | Accepted, revisit each semester |
-| [0005](0005-notebooks-committed-clean.md) | Notebooks are committed clean and run in CI | Accepted |
+| [0005](0005-notebooks-committed-clean.md) | Notebooks are committed clean and run in CI | Accepted, amended by 0007 |
 | [0006](0006-phased-curriculum.md) | A phased curriculum: six weeks on how machines learn, first | Accepted |
+| [0007](0007-week-5-lab-not-run-in-ci.md) | The Week 5 photo lab is not run in CI | Accepted |
 
 ## When to write one
 

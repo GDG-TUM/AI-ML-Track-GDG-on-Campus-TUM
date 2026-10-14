@@ -43,6 +43,11 @@ datasets/
 # ...except tiny, deliberate sample files in a sample/ folder
 !sample/**
 
+# Week 5 lab: learners' own photos stay out of git
+my_photos/
+my_photos.zip
+new_photos/
+
 # Experiment tracking output
 mlruns/
 wandb/

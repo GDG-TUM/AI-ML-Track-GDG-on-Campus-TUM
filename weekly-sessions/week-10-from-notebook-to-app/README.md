@@ -6,6 +6,12 @@
 
 **Goal:** Make your project reproducible, tested and demo-ready, with a review from a mentor.
 
+**Today's question:** *Could a teammate run your project tomorrow, on a fresh laptop, with one command?*
+
+## 💡 Why this matters
+
+A model that only runs in your notebook helps nobody, and a result nobody can reproduce is not evidence. Today you make your project **reproducible**, protect it with a few **tests**, and wrap it in a **demo** that other people can try.
+
 ## Learning objectives
 
 By the end you should be able to:
@@ -32,6 +38,15 @@ By the end you should be able to:
 5. **Project clinic:** each team gets about 10 minutes with a mentor, in rotation, while others keep building (25 min)
 6. 🛡️ Responsible AI moment (5 min)
 7. Wrap-up and take-home challenge (5 min)
+
+## How this session builds on Phase 1
+
+| Phase 1 idea | Today |
+|---|---|
+| Week 1: a seed makes random results repeatable | Reproducible in one command |
+| Week 2: always compare with a baseline | A **sanity test** that fails loudly if the model stops beating it |
+| Week 3: the honest evaluation checklist | Checks that run automatically on every change |
+| Week 2: shifted digits | **Invariance** and **edge-case** tests |
 
 ## Hands-on reference
 

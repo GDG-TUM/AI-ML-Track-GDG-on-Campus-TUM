@@ -6,7 +6,13 @@
 
 **Goal:** Review your own project for fairness, privacy and safety, document it honestly and test another team's work.
 
+**Today's question:** *Your model is 90% accurate. Who is in the other 10%?*
+
 This whole session is the Responsible AI moment, and it is **Gate C** for every project. Read the full [Responsible AI guide](../../docs/responsible-ai.md) beforehand.
+
+## 💡 Why this matters
+
+Phase 1 showed the same lesson three times: the storm day (Week 1), digits shifted by one pixel (Week 2), and a network that is confident far from its data (Week 4). **Whatever is missing from the data is missing from the model**, and it fails without warning. Today you look for that in your own project, systematically, before anyone is affected.
 
 ## Learning objectives
 
@@ -32,6 +38,14 @@ By the end you should be able to:
 4. Workshop in teams: checklist, slice evaluation, model and data cards (30 min)
 5. **Red-team swap:** another team tries to break your project (20 min)
 6. Wrap-up: findings, outcomes and next steps (10 min)
+
+## How this session builds on Phase 1
+
+| Phase 1 idea | Today |
+|---|---|
+| Week 1: `groupby` | **Slice evaluation:** accuracy per group, with `groupby` on a "correct" column |
+| Week 3: accuracy hides who the model fails; who pays for each mistake? | The **harm map** |
+| Week 2: shifted digits; Week 4: confident far away | **Red-teaming:** odd and extreme inputs on purpose |
 
 ## Hands-on reference
 

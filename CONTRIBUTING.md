@@ -177,7 +177,7 @@ You are responsible for the correctness, licensing and safety of what you submit
 
 ## Licence and credit
 
-This repository is under the [MIT License](LICENSE). By contributing you confirm that:
+This repository is under the [MIT License](LICENSE.md). By contributing you confirm that:
 
 - the work is yours, or you have the right to share it under the MIT License
 - anything you copy from elsewhere is **credited** and its licence allows reuse (datasets and images often do not)

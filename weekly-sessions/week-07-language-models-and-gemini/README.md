@@ -6,6 +6,12 @@
 
 **Goal:** Understand how language models behave, prompt them well and call the Gemini API without leaking a key.
 
+**Today's question:** *Finish this sentence: "The tea stand sells more tea when it..." You just did what a language model does.*
+
+## 💡 Why this matters
+
+Language models sit behind chatbots, search and coding tools. Under the hood they do one thing: **predict the next word** (more exactly, the next *token*), learned from a vast amount of text with Week 4's gradient descent. That explains both their power and their failures: they produce *plausible* text, not checked facts. Today you learn to prompt them well, call them safely from code, and test them like any other model.
+
 ## Learning objectives
 
 By the end you should be able to:
@@ -26,10 +32,20 @@ By the end you should be able to:
 
 1. Arrive and set up (10 min)
 2. Goal and recap (5 min)
-3. Concept: how language models work at a high level, and how to prompt (20 min)
+3. **Be the language model**: the room predicts the next word, then temperature as a knob; how to prompt (20 min)
 4. Hands-on in pairs: AI Studio, then the same prompt in Colab via the API (40 min)
 5. 🛡️ Responsible AI moment: the hallucination test (5 min)
 6. Share-out and take-home challenge (10 min)
+
+## How this session builds on Phase 1
+
+| Phase 1 idea | In a language model |
+|---|---|
+| Week 2: classification, choosing one of 10 digits | Choosing the next token out of about 100,000 |
+| Week 4: knobs, a loss, gradient descent | Billions of knobs, the same loop |
+| Week 4: confidence is not knowledge | **Hallucinations:** fluent, confident and wrong |
+| Week 3: a test set, not one lucky result | A 10-case test set for your prompt |
+| Week 1: knobs you can turn | **Temperature:** how adventurous each next-token choice is |
 
 ## Hands-on reference
 

@@ -6,6 +6,12 @@
 
 **Goal:** Show what you built, learn from each other, and plan the next phase.
 
+**Today's question:** *In five minutes, can you convince a stranger that your project works and is safe to use?*
+
+## 💡 Why this matters
+
+Building something is half the job; the other half is helping people understand and trust it. Demo day is Week 6's showcase, grown up: a real problem, a working demo, an honest evaluation and a clear account of the risks, for an audience that did not build it with you.
+
 ## Learning objectives
 
 By the end you should be able to:

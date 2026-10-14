@@ -59,7 +59,8 @@ jobs:
           cache: pip
           cache-dependency-path: requirements*.txt
       - run: pip install -r requirements-dev.txt
-      - run: pytest --nbmake weekly-sessions
+      # Week 5 needs Keras, downloads and learners' photos, so it is dry-run in Colab (decision 0007)
+      - run: pytest --nbmake weekly-sessions --ignore=weekly-sessions/week-05-deep-learning-in-practice
 
   template:
     name: Starter project template

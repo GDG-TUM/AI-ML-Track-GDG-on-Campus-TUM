@@ -55,6 +55,25 @@ Start from the [session template](../weekly-sessions/_template/README.md): copy 
 - **Stuck for 10 minutes? Ask.** Tell people this at the start and mean it.
 - **Pair, don't isolate.** Pairs explain things to each other, which doubles the learning.
 
+### 🎬 The intuition-first standard
+
+Every session and notebook should pass this checklist before it is marked ready. The style is borrowed from [Sebastian Lague's neural network video](https://www.youtube.com/watch?v=hfMk-kjRv4c): start with a concrete puzzle, let people turn the knobs by hand, and bring in each new idea only when the old one hits a wall. [Week 1](../weekly-sessions/week-01-welcome-and-python-for-data/README.md) is the reference example.
+
+| # | The session... | Week 1 example |
+|:-:|---|---|
+| 1 | **Opens with a concrete puzzle**, not a definition or a tool | "How much tea should we make tomorrow?" |
+| 2 | **Builds like a staircase.** Each part uses only what earlier parts taught, and the notebook opens with a table of what each part gives the next | One day by hand → 5 days in NumPy → 120 days → a pandas table → charts → a model |
+| 3 | **Shows a picture before a formula.** Every new idea gets a chart or diagram | The scatter plot comes before the line and its formula |
+| 4 | **Lets learners be the machine first.** They tune it by hand before the library does it | `try_line()` and sliders, then `np.polyfit` |
+| 5 | **Motivates each new idea by a limit of the last one** | Copying a cell is slow → a function; one guess at a time is slow → a loop; 200 guesses → the error valley |
+| 6 | **Asks learners to predict before they run.** At least three 🤔 *Predict first* prompts | "More tea on rainy days, or less?" |
+| 7 | **Keeps code small and explained.** One idea per cell, about 15 lines at most, and every line that is not obvious has a comment. Plot-only cells say *"just look at the picture"* | The recipe is one line, reused unchanged from 1 day to 120 |
+| 8 | **Names things after people have done them**, and ends with a vocabulary table | "The two knobs are the model's *parameters*" |
+| 9 | **Has a payoff**: the model is used on something real | Tomorrow's forecast: make about 226 cups |
+| 10 | **Breaks the model on screen** in the Responsible AI moment, rather than only discussing it | The 150 mm storm day |
+| 11 | **Has a host guide**: beats, what to ask the room, and the snags to expect | The collapsible guide in the Week 1 README |
+| 12 | **Spends little time on tools and a lot on ideas.** Teach only the tool skills the session's question needs; the rest goes to [cheat sheets](../resources/cheatsheets/python-data.md) | Week 1 teaches six pandas moves, not the whole library |
+
 ### Live-coding tips
 
 - Zoom the font to at least 150%, and use a light or high-contrast theme in a bright room.

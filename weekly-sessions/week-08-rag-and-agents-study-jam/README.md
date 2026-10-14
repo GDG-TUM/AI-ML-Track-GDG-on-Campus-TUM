@@ -6,6 +6,12 @@
 
 **Goal:** Build a question-answering bot that answers from your own documents and **cites its sources**, and learn what makes an agent different from a chatbot.
 
+**Today's question:** *Would you rather sit an exam from memory, or open-book?*
+
+## 💡 Why this matters
+
+A language model answers from memory, which is out of date and sometimes invented. **RAG** (retrieval-augmented generation) makes it an open-book exam: first find the relevant pages, then answer from them and cite them. Most real AI assistants work this way. **Agents** go one step further: the model chooses which tools to use, in a loop, until it can answer.
+
 ## Learning objectives
 
 By the end you should be able to:
@@ -26,12 +32,21 @@ By the end you should be able to:
 
 1. Arrive and set up (10 min)
 2. Goal and recap (5 min)
-3. Concept: RAG pipeline and the agent loop (20 min)
+3. Concept: the open-book exam (RAG) and the agent loop (20 min)
 4. Build in pairs: mini question-answering bot (40 min)
 5. 🛡️ Responsible AI moment: prompt injection (5 min)
 6. Share-out and take-home challenge (10 min)
 
 **Optional Hack Night:** stay for a 3-hour build sprint on your project, with maintainers and mentors around to help.
+
+## How this session builds on Phase 1
+
+| Phase 1 idea | In RAG |
+|---|---|
+| Week 2: a picture becomes a row of numbers | An **embedding** turns a chunk of text into a row of numbers |
+| Week 2: nearest neighbour, "find the most similar picture" | **Retrieval:** find the most similar chunks to the question |
+| Week 3: honest evaluation with a test set | A 10-question table: did retrieval find the right chunk? |
+| Week 7: hallucinations | "Answer only from the sources, or say you don't know" |
 
 ## Hands-on reference
 

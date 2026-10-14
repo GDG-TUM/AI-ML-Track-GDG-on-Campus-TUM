@@ -300,7 +300,7 @@ AI-ML-Track-GDG-on-Campus-TUM/
 ├── FAQ.md                     ← common questions
 ├── CONTRIBUTING.md            ← how to contribute (conventions live here)
 ├── GOVERNANCE.md              ← roles and decision making
-├── CODE_OF_CONDUCT.md · SECURITY.md · SUPPORT.md · CHANGELOG.md · LICENSE
+├── CODE_OF_CONDUCT.md · SECURITY.md · SUPPORT.md · CHANGELOG.md · LICENSE.md
 ├── vision/                    ← what is possible with this field
 ├── roadmap/                   ← the plan: Phase 1 and Phase 2
 ├── learning-path/             ← 6 stages from Python to shipping
@@ -332,7 +332,7 @@ AI-ML-Track-GDG-on-Campus-TUM/
 | ✉️ **Email** | [gdgtum@gmail.com](mailto:gdgtum@gmail.com) |
 | 💬 **Questions about this track** | [Open an issue](https://github.com/GDG-TUM/AI-ML-Track-GDG-on-Campus-TUM/issues/new/choose) |
 
-📄 Licensed under the [MIT License](LICENSE). AI/ML Track Lead: Lewis Kagiri ([@10kwise](https://github.com/10kwise)).
+📄 Licensed under the [MIT License](LICENSE.md). AI/ML Track Lead: Lewis Kagiri ([@10kwise](https://github.com/10kwise)).
 
 <div align="center">
 
