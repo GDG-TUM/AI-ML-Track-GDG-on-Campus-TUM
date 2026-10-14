@@ -7,6 +7,6 @@
 ruff==0.16.10
 
 pre-commit>=3.7
-pytest>=8.0
+pytest>=9.1.1
 nbmake>=1.5
 nbstripout>=0.8
