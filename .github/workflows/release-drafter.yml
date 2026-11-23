@@ -19,6 +19,6 @@ jobs:
       contents: write # create and update the draft release
       pull-requests: write # apply labels from the PR title (autolabeler)
     steps:
-      - uses: release-drafter/release-drafter@v6
+      - uses: release-drafter/release-drafter@v7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
